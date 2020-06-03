@@ -5,6 +5,27 @@
 
 This repository contains a curated list of tools, frameworks and open source libraries that helps AI/ML Engineers `Deploy, monitor, version, scale, and secure` production machine learning. 
 
+- **INSPIRATION**
+
+<p align="center"> # Productionization/Industralization Machine Learning Systems</p> 
+
+<p align="center"> # Only a SMALL FRACTION of REAL-WORLD ML SYSTEMs is composed of the ML CODE</p> 
+
+<p align="center"> # Hardest part of AI isn't AI, but it's Data & productionization</p> 
+
+<p align="center"> # HIDDEN TECH DEBT IN ML SYSTEM- NIPS/GOOGLE 2015</p> 
+
+<p align="center"> # Only a SMALL FRACTION of REAL-WORLD ML SYSTEMs is composed of the ML CODE</p> 
+
+_Courtsey Google NIPS 2015
+
+<p align="center">
+<img alt="Google NIPS 2015" src="https://image.slidesharecdn.com/4brookewenigjulesdamji-180612221342/95/a-tale-of-three-deep-learning-frameworks-tensorflow-keras-and-deep-learning-pipelines-with-brooke-wenig-and-jules-damji-5-638.jpg?cb=1528841699">
+</p>
+
+<p align="center">[HIDDEN TECH DEBT IN ML SYSTEM- NIPS/GOOGLE 2015](https://papers.nips.cc/paper/5656-hidden-technical-debt-in-machine-learning-systems.pdf)</p>
+
+
 - **OBJECTIVE**
    - Empowerment of the `design, development and operation` of **production machine learning systems**.
    - Special attention to **Ethical AI (a pillar of AI Trust)** in production machine learning systems with adequate deatiling around "Ethical AI Frameworks", "Codes of Ethics", "Guidelines", "Regulations" et al. Please Refer to [Ethical AI](/README_Ethical_AI.md).
@@ -60,26 +81,6 @@ This repository contains a curated list of tools, frameworks and open source lib
      - "Comprehensive **DataOps"** 
 
         
-
-- **INSPIRATION**
-
-<p align="center"> # Productionization/Industralization Machine Learning Systems</p> 
-
-<p align="center"> # Only a SMALL FRACTION of REAL-WORLD ML SYSTEMs is composed of the ML CODE</p> 
-
-<p align="center"> # Hardest part of AI isn't AI, but it's Data & productionization</p> 
-
-<p align="center"> # HIDDEN TECH DEBT IN ML SYSTEM- NIPS/GOOGLE 2015</p> 
-
-<p align="center"> # Only a SMALL FRACTION of REAL-WORLD ML SYSTEMs is composed of the ML CODE</p> 
-
-_Courtsey Google NIPS 2015
-
-<p align="center">
-<img alt="Google NIPS 2015" src="https://image.slidesharecdn.com/4brookewenigjulesdamji-180612221342/95/a-tale-of-three-deep-learning-frameworks-tensorflow-keras-and-deep-learning-pipelines-with-brooke-wenig-and-jules-damji-5-638.jpg?cb=1528841699">
-</p>
-
-[HIDDEN TECH DEBT IN ML SYSTEM- NIPS/GOOGLE 2015](https://papers.nips.cc/paper/5656-hidden-technical-debt-in-machine-learning-systems.pdf)
 
 
 ## Quick links to sections in this page
