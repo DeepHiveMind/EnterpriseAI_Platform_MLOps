@@ -50,15 +50,15 @@ This repository contains a curated list of tools, frameworks and open source lib
 
 <p align="center"> # Productionization/Industralization Machine Learning Systems</p> 
 
-<p align="center"> # Only a SMALL FRACTION of REAL-WORLD ML SYSTEMs is composed of the ML CODE*</p> 
+<p align="center"> # Only a SMALL FRACTION of REAL-WORLD ML SYSTEMs is composed of the ML CODE</p> 
 
-<p align="center"> # Hardest part of AI isn't AI, but it's Data & productionization*</p> 
+<p align="center"> # Hardest part of AI isn't AI, but it's Data & productionization</p> 
 
-  - **HIDDEN TECH DEBT IN ML SYSTEM- NIPS/GOOGLE 2015**
+<p align="center"> # HIDDEN TECH DEBT IN ML SYSTEM- NIPS/GOOGLE 2015</p> 
 
+**Only a SMALL FRACTION of REAL-WORLD ML SYSTEMs is composed of the ML CODE"**
 
-<p align="center">**"Only a SMALL FRACTION of REAL-WORLD ML SYSTEMs is composed of the ML CODE"**</p> 
-<p align="center">_Courtsey Google NIPS 2015</p>
+_Courtsey Google NIPS 2015
 
 <p align="center">
 <img alt="Google NIPS 2015" src="https://image.slidesharecdn.com/4brookewenigjulesdamji-180612221342/95/a-tale-of-three-deep-learning-frameworks-tensorflow-keras-and-deep-learning-pipelines-with-brooke-wenig-and-jules-damji-5-638.jpg?cb=1528841699">
