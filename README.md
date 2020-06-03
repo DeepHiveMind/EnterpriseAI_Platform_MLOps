@@ -5,7 +5,7 @@
 
 This repository contains a curated list of tools, frameworks and open source libraries that helps AI/ML Engineers `Deploy, monitor, version, scale, and secure` production machine learning. 
 
-**-- Objective--**
+- **OBJECTIVE**
    - Empowerment of the `design, development and operation` of **production machine learning systems**.
    - Special attention to **Ethical AI (a pillar of AI Trust)** in production machine learning systems with adequate deatiling around "Ethical AI Frameworks", "Codes of Ethics", "Guidelines", "Regulations" et al.
    - Any **"Enterprise AI Platform"** must intend to stich/chain together these constructs and tools under its hood. Genrally "Enterprise AI Platform", such as H20.ai/Alteryx/HopsML/PipelineAI etc are powered by **Custom MLOPS** with the objective to *attempt to offer* following key high level AI/ML constructs:
@@ -46,7 +46,7 @@ This repository contains a curated list of tools, frameworks and open source lib
              --o 'AI Security' - Privacy Preserving Machine Learning, AI/ML API Security
            ```
 
-**--Inspiration--**
+- **INSPIRATION**
 
 <p align="center"> # Productionization/Industralization Machine Learning Systems</p> 
 
