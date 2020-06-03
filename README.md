@@ -1,14 +1,35 @@
-[![Awesome](images/awesome.svg)](https://github.com/sindresorhus/awesome)
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-YES-green.svg)](https://github.com/EthicalML/awesome-production-machine-learning/graphs/commit-activity)
-![GitHub](https://img.shields.io/badge/Release-PROD-yellow.svg)
-![GitHub](https://img.shields.io/badge/Languages-MULTI-blue.svg)
-![GitHub](https://img.shields.io/badge/License-MIT-lightgrey.svg)
-[![GitHub](https://img.shields.io/twitter/follow/axsaucedo.svg?label=Follow)](https://twitter.com/AxSaucedo/)
 
 
-# Awesome production machine learning
 
-This repository contains a curated list of awesome open source libraries that will help you deploy, monitor, version, scale, and secure your production machine learning.
+# AI Platform MLOps | Production machine learning | Real Time ML System
+
+This repository contains a curated list of tools, frameworks and open source libraries that helps AI/ML Engineers `Deploy, monitor, version, scale, and secure` production machine learning. 
+
+**-- Objective:**
+ - Empowerment of the `design, development and operation` of **production machine learning systems**.
+ - Special attention to **AI Trust** pillars ("Ethical AI Frameworks", "Codes of Ethics", "Guidelines", "Regulations") in production machine learning systems.
+
+AI Platform should intend to stich these constructs and tools under its hood.
+
+**--Inspiration:**
+
+*Productionization/Industralization Machine Learning Systems*
+
+*Only a SMALL FRACTION of REAL-WORLD ML SYSTEMs is composed of the ML CODE*
+
+*Hardest part of AI isn't AI, but it's Data & productionization*
+
+**HIDDEN TECH DEBT IN ML SYSTEM- NIPS/GOOGLE 2015**
+
+<p align="center">**"Only a SMALL FRACTION of REAL-WORLD ML SYSTEMs is composed of the ML CODE"**</p> 
+<p align="center">_Courtsey Google NIPS 2015</p>
+
+<p align="center">
+<img alt="Google NIPS 2015" src="https://image.slidesharecdn.com/4brookewenigjulesdamji-180612221342/95/a-tale-of-three-deep-learning-frameworks-tensorflow-keras-and-deep-learning-pipelines-with-brooke-wenig-and-jules-damji-5-638.jpg?cb=1528841699">
+</p>
+
+[HIDDEN TECH DEBT IN ML SYSTEM- NIPS/GOOGLE 2015](https://papers.nips.cc/paper/5656-hidden-technical-debt-in-machine-learning-systems.pdf)
+
 
 ## Quick links to sections in this page
 
@@ -31,27 +52,6 @@ This repository contains a curated list of awesome open source libraries that wi
     </td>
     <td width="70%">
         <a href="https://www.youtube.com/watch?v=Ynb6X0KZKxY"><img src="images/video.png"></a>
-    </td>
-  </tr>
-</table>
-
-## Want to receive recurrent updates on this repo and other advancements?
-
-<table>
-  <tr>
-    <td width="30%">
-         You can join the <a href="https://ethical.institute/mle.html">Machine Learning Engineer</a> newsletter. You will receive updates on open source frameworks, tutorials and articles curated by machine learning professionals.
-    </td>
-    <td width="70%">
-        <a href="https://ethical.institute/mle.html"><img src="images/mleng.png"></a>
-    </td>
-  </tr>
-  <tr>
-    <td width="30%">
-         Also check out the <a href="https://github.com/EthicalML/awesome-artificial-intelligence-guidelines/">Awesome Artificial Intelligence Guidelines</a> List, where we aim to map the landscape of "Frameworks", "Codes of Ethics", "Guidelines", "Regulations", etc related to Artificial Intelligence.
-    </td>
-    <td width="70%">
-        <a href="https://github.com/EthicalML/awesome-artificial-intelligence-guidelines/"><img src="images/guidelines.jpg"></a>
     </td>
   </tr>
 </table>
