@@ -12,7 +12,7 @@ This repository contains a curated list of tools, frameworks and open source lib
    
         - **"AI/ML Pipeline"** 
         ```
-         --  AI/ML Model 'Build/Prepare' (Notebook/ Visual AI Studio with dockerized support to AI/ML Libraries-TF/PyTorch/SparkML/XGboost/,  EDA libraries, Pre-processing libraries, Data Augmentation Libraries) 
+         -o  AI/ML Model 'Build/Prepare' (Notebook/ Visual AI Studio with dockerized support to AI/ML Libraries-TF/PyTorch/SparkML/XGboost/,  EDA libraries, Pre-processing libraries, Data Augmentation Libraries) 
          --> 'Train' (Distributed/Standalone tarining on accelerated neural network hardware -GPU/TPU/CPU- with support for real time Training Visualization - TensorBoard/VisualDL)
          --> 'Evaluate'
          --> 'Deploy' (AI-as-a-Service -RESTful/gRPC API- , or, Binary Servables, or, Edge/Mobile deployment)
@@ -22,20 +22,19 @@ This repository contains a curated list of tools, frameworks and open source lib
         ```
         
         - **"Automated ML"** 
-            ```
+        ```
           'HPO' - Hyper Parameter Optimization,
           'Randmoized/Grid Serach',
           'NAS' - Neural Architecture Search,  
            'AutoML'         
-           ```
+        ```
        
        - **"Comprehensive AI Governances"** 
-
-            ```
+       ```
              -- 'AI TRUST' - Explainable AI, Ethical AI, Fair AI, Feature Management & Stoarge, 'Model and Data Versioning', 
              --  "Collaboration & Sharing' - 
              -- 'AI Security' - Privacy Preserving Machine Learning, AI/ML API Security
-             ```
+         ```
 
        - "Comprehensive **DataOps"** 
 
