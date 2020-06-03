@@ -7,9 +7,17 @@ This repository contains a curated list of tools, frameworks and open source lib
 
 - **OBJECTIVE**
    - Empowerment of the `design, development and operation` of **production machine learning systems**.
-   - Special attention to **Ethical AI (a pillar of AI Trust)** in production machine learning systems with adequate deatiling around "Ethical AI Frameworks", "Codes of Ethics", "Guidelines", "Regulations" et al.
+   - Special attention to **Ethical AI (a pillar of AI Trust)** in production machine learning systems with adequate deatiling around "Ethical AI Frameworks", "Codes of Ethics", "Guidelines", "Regulations" et al. Please Refer to [Ethical AI](/README_Ethical_AI.md).
    - Any **"Enterprise AI Platform"** must intend to stich/chain together these constructs and tools under its hood. Genrally "Enterprise AI Platform", such as H20.ai/Alteryx/HopsML/PipelineAI etc are powered by **Custom MLOPS** with the objective to *attempt to offer* following key high level AI/ML constructs:
    
+        - **"AI/ML Dataset Annotation"** 
+        ```
+         --o  'Image Annotation framework' (VoTT, ImgLable, ) 
+         --o 'NLP/ Text Annotation framework' (spacy, explosion.ai,)
+         --o 'Audio & Speech Annotation framework'
+         --o 'Ontology/Knowledge Graph Annotation framework' (Apache Jena)
+        ```
+        
         - **"AI/ML Pipeline"** 
         ```
          --o  AI/ML Model 'Build/Prepare' (Notebook/ Visual AI Studio with dockerized support to AI/ML Libraries-TF/PyTorch/SparkML/XGboost/,  EDA libraries, Pre-processing libraries, Data Augmentation Libraries) 
