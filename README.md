@@ -12,13 +12,13 @@ This repository contains a curated list of tools, frameworks and open source lib
    
         - **"AI/ML Pipeline"** 
         ```
-         AI/ML Model 'Build/Prepare' --> 
-        -->'Train' (Distributed/Standalone tarining on accelerated neural network hardware -GPU/TPU/CPU- with support for real time Training Visualization - TensorBoard/VisualDL) --> 
-        'Evaluate' --> 
-        'Deploy' (AI-as-a-Service -RESTful/gRPC API- , or, Binary Servables, or, Edge/Mobile deployment) ---> 
-        'Model Serialization & Quantization'  --> 
-        'Monitor' (Data drift & Concept drift with Alert) --> 
-        Automated Re-training pathway
+         AI/ML Model 'Build/Prepare' (Notebook/ Visual AI Studio)
+        -->'Train' (Distributed/Standalone tarining on accelerated neural network hardware -GPU/TPU/CPU- with support for real time Training Visualization - TensorBoard/VisualDL)
+         --> 'Evaluate'
+         --> 'Deploy' (AI-as-a-Service -RESTful/gRPC API- , or, Binary Servables, or, Edge/Mobile deployment)
+         --> 'Model Serialization & Quantization'  
+         --> 'Monitor' (Data drift & Concept drift with Alert) 
+         -->  'Automated Re-training pathway' (Airflow)
         ```
         
         - **"Automated ML"** 
@@ -26,7 +26,8 @@ This repository contains a curated list of tools, frameworks and open source lib
           'HPO' - Hyper Parameter Optimization,
           'Randmoized/Grid Serach',
           'NAS' - Neural Architecture Search,  
-           'AutoML'         ```
+           'AutoML'         
+           ```
        
        - **"Comprehensive AI Governances"** 
 
