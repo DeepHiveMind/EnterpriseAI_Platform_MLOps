@@ -12,16 +12,16 @@ This repository contains a curated list of tools, frameworks and open source lib
    
         - **"AI/ML Dataset Annotation"** 
         ```
-         --o  'Image Annotation framework' (VoTT, ImgLable, ) 
+         --o 'Image Annotation framework' (VoTT, LabelImg, VIA ) 
          --o 'NLP/ Text Annotation framework' (spacy, explosion.ai,)
-         --o 'Audio & Speech Annotation framework'
+         --o 'Audio & Speech Annotation framework' (Web-Based Audio Sequencer, CrowdCurio/audio-annotator, annotationpro)
          --o 'Ontology/Knowledge Graph Annotation framework' (Apache Jena)
         ```
         
         - **"AI/ML Pipeline"** 
         ```
-         --o  AI/ML Model 'Build/Prepare' (Notebook/ Visual AI Studio with dockerized support to AI/ML Libraries-TF/PyTorch/SparkML/XGboost/,  EDA libraries, Pre-processing libraries, Data Augmentation Libraries) 
-         --> 'Train' (Distributed/Standalone tarining on accelerated neural network hardware -GPU/TPU/CPU- with support for real time Training Visualization - TensorBoard/VisualDL)
+         --o  AI/ML Model 'Build/Prepare' (Notebook/ Visual AI Studio with dockerized support to AI/ML Libraries-TF/PyTorch/SparkML/XGboost/,  EDA libraries, Pre-processing libraries, Data Augmentation Libraries, Adversarial Robustness Libraries) 
+         --> 'Train' (Computation load distribution frameworks for 'Distributed/Standalone tarining' on accelerated neural network hardware -GPU/TPU/CPU- with support for real time Training Visualization - TensorBoard/VisualDL)
          --> 'Evaluate'
          --> 'Deploy' (AI-as-a-Service -RESTful/gRPC API- , or, Binary Servables, or, Edge/Mobile deployment)
          --> 'Model Serialization & Quantization'  
@@ -39,20 +39,27 @@ This repository contains a curated list of tools, frameworks and open source lib
        
       - **"Comprehensive AI Governances"** 
         ```
-             --o 'AI TRUST' - Explainable AI, Ethical AI, Fair AI, Feature Management & Stoarge, 'Model and Data Versioning', 
-             --o 'AI Collaboration, Sharing & Exchange' - AI/ML APIs Authenticated Sharing, Fature Set Authenticated Sharing, Model Binaries Authenticated Sharing, Notebook /Model Code Authenticated Sharing,
-             --o 'AI Security' - Privacy Preserving Machine Learning, AI/ML API Security (Authentican & Authorization)
-             --o 'AI Scalability' - Autoamted Load Balancing, Service Routing, AutoScaling
+           --o 'AI TRUST' - Explainable AI, Ethical AI, Fair AI, Feature Management & Stoarge, 'Model and Data Versioning',
+           
+           --o 'AI Collaboration, Sharing & Exchange' - AI/ML APIs Authenticated Sharing, Fature Set Authenticated Sharing, Model Binaries Authenticated Sharing, Notebook /Model Code Authenticated Sharing,
+           
+           --o 'AI Security' - Privacy Preserving Machine Learning, AI/ML API Security (Authentican & Authorization)
+           
+           --o 'AI Scalability' - Autoamted Load Balancing, Service Routing, AutoScaling
+           
           ```
-         
+       - **"AI Operation Cost Optimization "** 
+        ```
+         --o 'CI framework' (Jeknis/ Travis CI)
+         --o 'CD framework: Containerized & Container orachasteration by Container-as-a-Service ' (Docker, Kubernetes, Mesos)
+         --o 'Microservice governance framework for Plug/Play of AI/ML system' (API Gateway, Microservice Service Mesh, Microservice Service Registry, Microservice Service Discovery, Microservice service internal communication protocol 
+         --o 'Serverless Framework' (FaaS - OpenWhish/ OpenFaas, KNative)
+         --o 'Ontology/Knowledge Graph Annotation framework' (Apache Jena)
+        ```       
 
      - "Comprehensive **DataOps"** 
 
-          ```
-             --o 'AI TRUST' - Explainable AI, Ethical AI, Fair AI, 'Feature Management & Stoarge', 'Model and Data Versioning', 
-             --o 
-             --o 'AI Security' - Privacy Preserving Machine Learning, AI/ML API Security
-           ```
+        
 
 - **INSPIRATION**
 
