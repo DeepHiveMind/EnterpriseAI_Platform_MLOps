@@ -15,7 +15,14 @@ This repository contains a curated list of tools, frameworks and open source lib
         - **"Automated ML"** ('HPO' - Hyper Parameter Optimization || 'Randmoized/Grid Serach' || 'NAS' - Neural Architecture Search | 'AutoML') 
        
         - **"Comprehensive AI Governances"** 
-            -- 'AI TRUST' - Explainable AI, Ethical AI, Fair AI, 'Feature Management & Stoarge', 'Model and Data Versioning',       ||  'AI Security' - Privacy Preserving Machine Learning, AI/ML API Security)
+               
+            - 'AI TRUST' - Explainable AI, Ethical AI, Fair AI, 'Feature Management & Stoarge', 'Model and Data Versioning'
+            
+            
+            ```
+             -- 'AI TRUST' - Explainable AI, Ethical AI, Fair AI, 'Feature Management & Stoarge', 'Model and Data Versioning', 
+             -- 'AI Security' - Privacy Preserving Machine Learning, AI/ML API Security)
+             ```
         
 
 **--Inspiration--**
