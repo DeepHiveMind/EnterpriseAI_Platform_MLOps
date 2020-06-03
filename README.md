@@ -48,13 +48,13 @@ This repository contains a curated list of tools, frameworks and open source lib
 
 **--Inspiration--**
 
-<p align="center"> - Productionization/Industralization Machine Learning Systems*</p> 
+<p align="center"> # Productionization/Industralization Machine Learning Systems</p> 
 
-<p align="center"> - Only a SMALL FRACTION of REAL-WORLD ML SYSTEMs is composed of the ML CODE*</p> 
+<p align="center"> # Only a SMALL FRACTION of REAL-WORLD ML SYSTEMs is composed of the ML CODE*</p> 
 
-<p align="center"> - Hardest part of AI isn't AI, but it's Data & productionization*</p> 
+<p align="center"> # Hardest part of AI isn't AI, but it's Data & productionization*</p> 
 
-**HIDDEN TECH DEBT IN ML SYSTEM- NIPS/GOOGLE 2015**
+  - **HIDDEN TECH DEBT IN ML SYSTEM- NIPS/GOOGLE 2015**
 
 
 <p align="center">**"Only a SMALL FRACTION of REAL-WORLD ML SYSTEMs is composed of the ML CODE"**</p> 
