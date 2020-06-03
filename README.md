@@ -12,7 +12,7 @@ This repository contains a curated list of tools, frameworks and open source lib
    
         - **"AI/ML Pipeline"** 
         ```
-         -o  AI/ML Model 'Build/Prepare' (Notebook/ Visual AI Studio with dockerized support to AI/ML Libraries-TF/PyTorch/SparkML/XGboost/,  EDA libraries, Pre-processing libraries, Data Augmentation Libraries) 
+         --o  AI/ML Model 'Build/Prepare' (Notebook/ Visual AI Studio with dockerized support to AI/ML Libraries-TF/PyTorch/SparkML/XGboost/,  EDA libraries, Pre-processing libraries, Data Augmentation Libraries) 
          --> 'Train' (Distributed/Standalone tarining on accelerated neural network hardware -GPU/TPU/CPU- with support for real time Training Visualization - TensorBoard/VisualDL)
          --> 'Evaluate'
          --> 'Deploy' (AI-as-a-Service -RESTful/gRPC API- , or, Binary Servables, or, Edge/Mobile deployment)
@@ -21,7 +21,7 @@ This repository contains a curated list of tools, frameworks and open source lib
          -->  'Automated Re-training pathway' (Airflow)
         ```
         
-        - **"Automated ML"** 
+       - **"Automated ML"** 
         ```
           'HPO' - Hyper Parameter Optimization,
           'Randmoized/Grid Serach',
@@ -29,20 +29,22 @@ This repository contains a curated list of tools, frameworks and open source lib
            'AutoML'         
         ```
        
-       - **"Comprehensive AI Governances"** 
-       ```
-             -- 'AI TRUST' - Explainable AI, Ethical AI, Fair AI, Feature Management & Stoarge, 'Model and Data Versioning', 
-             --  "Collaboration & Sharing' - 
-             -- 'AI Security' - Privacy Preserving Machine Learning, AI/ML API Security
-         ```
+      - **"Comprehensive AI Governances"** 
+        ```
+             --o 'AI TRUST' - Explainable AI, Ethical AI, Fair AI, Feature Management & Stoarge, 'Model and Data Versioning', 
+             --o  'Collaboration, Sharing & Exchange' - AI/ML APIs Authenticated Sharing, Fature Set Authenticated Sharing, Model Binaries Authenticated Sharing, Notebook /Model Code Authenticated Sharing,
+             --o 'AI Security' - Privacy Preserving Machine Learning, AI/ML API Security (Authentican & Authorization)
+             --o 'AI Scalability' - Autoamted Load Balancing, Service Routing, AutoScaling
+          ```
+         
 
-       - "Comprehensive **DataOps"** 
+      - "Comprehensive **DataOps"** 
 
-            ```
-             -- 'AI TRUST' - Explainable AI, Ethical AI, Fair AI, 'Feature Management & Stoarge', 'Model and Data Versioning', 
-             -- 
-             -- 'AI Security' - Privacy Preserving Machine Learning, AI/ML API Security
-             ```
+          ```
+             --o 'AI TRUST' - Explainable AI, Ethical AI, Fair AI, 'Feature Management & Stoarge', 'Model and Data Versioning', 
+             --o 
+             --o 'AI Security' - Privacy Preserving Machine Learning, AI/ML API Security
+           ```
 
 **--Inspiration--**
 
