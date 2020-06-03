@@ -5,21 +5,22 @@
 
 This repository contains a curated list of tools, frameworks and open source libraries that helps AI/ML Engineers `Deploy, monitor, version, scale, and secure` production machine learning. 
 
-**-- Objective:**
- - Empowerment of the `design, development and operation` of **production machine learning systems**.
- - Special attention to **AI Trust** pillars ("Ethical AI Frameworks", "Codes of Ethics", "Guidelines", "Regulations") in production machine learning systems.
+**-- Objective--**
+   - Empowerment of the `design, development and operation` of **production machine learning systems**.
+   - Special attention to **Ethical AI (a pillar of AI Trust)** in production machine learning systems with adequate deatiling around "Ethical AI Frameworks", "Codes of Ethics", "Guidelines", "Regulations" et al.
 
-AI Platform should intend to stich these constructs and tools under its hood.
+Any AI Platform must intend to stich/chain together these constructs and tools under its hood.
 
-**--Inspiration:**
+**--Inspiration--**
 
-*Productionization/Industralization Machine Learning Systems*
+<p align="center"> - Productionization/Industralization Machine Learning Systems*</p> 
 
-*Only a SMALL FRACTION of REAL-WORLD ML SYSTEMs is composed of the ML CODE*
+<p align="center"> - Only a SMALL FRACTION of REAL-WORLD ML SYSTEMs is composed of the ML CODE*</p> 
 
-*Hardest part of AI isn't AI, but it's Data & productionization*
+<p align="center"> - Hardest part of AI isn't AI, but it's Data & productionization*</p> 
 
 **HIDDEN TECH DEBT IN ML SYSTEM- NIPS/GOOGLE 2015**
+
 
 <p align="center">**"Only a SMALL FRACTION of REAL-WORLD ML SYSTEMs is composed of the ML CODE"**</p> 
 <p align="center">_Courtsey Google NIPS 2015</p>
@@ -42,19 +43,6 @@ AI Platform should intend to stich these constructs and tools under its hood.
 | [📡 Functions as a service](#function-as-a-service-frameworks)| [🗺️ Computation distribution](#computation-load-distribution-frameworks) | [📥 Model serialisation](#model-serialisation-formats) |
 | [🧮 Optimized calculation frameworks](#optimized-calculation-frameworks)| [💸 Data Stream Processing](#data-streaming-processing) | [🌀 Feature engineering](#feature-engineering-automation)
 | [🎁 Feature Stores](#feature-stores) | [💰 Commercial Platforms](#commercial-platforms)
-
-## 10 Min Video Overview
-
-<table>
-  <tr>
-    <td width="30%">
-        This <a href="https://www.youtube.com/watch?v=Ynb6X0KZKxY">10 minute video</a> provides an overview of the motivations for machine learning operations as well as a high level overview on some of the tools in this repo.
-    </td>
-    <td width="70%">
-        <a href="https://www.youtube.com/watch?v=Ynb6X0KZKxY"><img src="images/video.png"></a>
-    </td>
-  </tr>
-</table>
 
 
 # Main Content
@@ -392,3 +380,17 @@ www.youtube.com/watch?v=zbjub8BQPyE)
 * [Spell](https://spell.run) - Flexible end-to-end MLOps / Machine Learning Platform. [(Video)](https://www.youtube.com/watch?v=J7xo-STHx1k)
 * [Talend Studio](https://www.talend.com/)
 * [Valohai](https://valohai.com/) - Machine orchestration, version control and pipeline management for deep learning.
+
+## 10 Min Video Overview
+
+<table>
+  <tr>
+    <td width="30%">
+        This <a href="https://www.youtube.com/watch?v=Ynb6X0KZKxY">10 minute video</a> provides an overview of the motivations for machine learning operations as well as a high level overview on some of the tools in this repo.
+    </td>
+    <td width="70%">
+        <a href="https://www.youtube.com/watch?v=Ynb6X0KZKxY"><img src="images/video.png"></a>
+    </td>
+  </tr>
+</table>
+
