@@ -10,20 +10,39 @@ This repository contains a curated list of tools, frameworks and open source lib
    - Special attention to **Ethical AI (a pillar of AI Trust)** in production machine learning systems with adequate deatiling around "Ethical AI Frameworks", "Codes of Ethics", "Guidelines", "Regulations" et al.
    - Any **"Enterprise AI Platform"** must intend to stich/chain together these constructs and tools under its hood. Genrally "Enterprise AI Platform", such as H20.ai/Alteryx/HopsML/PipelineAI etc are powered by **Custom MLOPS** with the objective to *attempt to offer* following key high level AI/ML constructs:
    
-        - **"AI/ML Pipeline"** (AI/ML Model 'Build/Prepare' --> 'Train' (Distributed/Standalone tarining on accelerated neural network hardware -GPU/TPU/CPU- with support for real time Training Visualization - TensorBoard/VisualDL) --> 'Evaluate' --> 'Deploy' (AI-as-a-Service -RESTful/gRPC API- , or, Binary Servables, or, Edge/Mobile deployment) ---> 'Model Serialization & Quantization'  --> 'Monitor' (Data drift & Concept drift with Alert) --> Automated Re-training pathway)
+        - **"AI/ML Pipeline"** 
+        ```
+         AI/ML Model 'Build/Prepare' --> 
+        -->'Train' (Distributed/Standalone tarining on accelerated neural network hardware -GPU/TPU/CPU- with support for real time Training Visualization - TensorBoard/VisualDL) --> 
+        'Evaluate' --> 
+        'Deploy' (AI-as-a-Service -RESTful/gRPC API- , or, Binary Servables, or, Edge/Mobile deployment) ---> 
+        'Model Serialization & Quantization'  --> 
+        'Monitor' (Data drift & Concept drift with Alert) --> 
+        Automated Re-training pathway
+        ```
         
-        - **"Automated ML"** ('HPO' - Hyper Parameter Optimization || 'Randmoized/Grid Serach' || 'NAS' - Neural Architecture Search | 'AutoML') 
+        - **"Automated ML"** 
+            ```
+          'HPO' - Hyper Parameter Optimization,
+          'Randmoized/Grid Serach',
+          'NAS' - Neural Architecture Search,  
+           'AutoML'         ```
        
-        - **"Comprehensive AI Governances"** 
-               
-            - 'AI TRUST' - Explainable AI, Ethical AI, Fair AI, 'Feature Management & Stoarge', 'Model and Data Versioning'
-            
-            
+       - **"Comprehensive AI Governances"** 
+
+            ```
+             -- 'AI TRUST' - Explainable AI, Ethical AI, Fair AI, Feature Management & Stoarge, 'Model and Data Versioning', 
+             --  "Collaboration & Sharing' - 
+             -- 'AI Security' - Privacy Preserving Machine Learning, AI/ML API Security
+             ```
+
+       - "Comprehensive **DataOps"** 
+
             ```
              -- 'AI TRUST' - Explainable AI, Ethical AI, Fair AI, 'Feature Management & Stoarge', 'Model and Data Versioning', 
-             -- 'AI Security' - Privacy Preserving Machine Learning, AI/ML API Security)
+             -- 
+             -- 'AI Security' - Privacy Preserving Machine Learning, AI/ML API Security
              ```
-        
 
 **--Inspiration--**
 
