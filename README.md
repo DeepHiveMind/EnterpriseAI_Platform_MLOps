@@ -34,13 +34,13 @@ This repository contains a curated list of tools, frameworks and open source lib
           'HPO' - Hyper Parameter Optimization,
           'Randmoized/Grid Serach',
           'NAS' - Neural Architecture Search,  
-           'AutoML'         
+          'AutoML'         
         ```
        
       - **"Comprehensive AI Governances"** 
         ```
              --o 'AI TRUST' - Explainable AI, Ethical AI, Fair AI, Feature Management & Stoarge, 'Model and Data Versioning', 
-             --o  'Collaboration, Sharing & Exchange' - AI/ML APIs Authenticated Sharing, Fature Set Authenticated Sharing, Model Binaries Authenticated Sharing, Notebook /Model Code Authenticated Sharing,
+             --o 'AI Collaboration, Sharing & Exchange' - AI/ML APIs Authenticated Sharing, Fature Set Authenticated Sharing, Model Binaries Authenticated Sharing, Notebook /Model Code Authenticated Sharing,
              --o 'AI Security' - Privacy Preserving Machine Learning, AI/ML API Security (Authentican & Authorization)
              --o 'AI Scalability' - Autoamted Load Balancing, Service Routing, AutoScaling
           ```
