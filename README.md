@@ -38,7 +38,7 @@ This repository contains a curated list of tools, frameworks and open source lib
           ```
          
 
-      - "Comprehensive **DataOps"** 
+     - "Comprehensive **DataOps"** 
 
           ```
              --o 'AI TRUST' - Explainable AI, Ethical AI, Fair AI, 'Feature Management & Stoarge', 'Model and Data Versioning', 
@@ -56,7 +56,7 @@ This repository contains a curated list of tools, frameworks and open source lib
 
 <p align="center"> # HIDDEN TECH DEBT IN ML SYSTEM- NIPS/GOOGLE 2015</p> 
 
-**Only a SMALL FRACTION of REAL-WORLD ML SYSTEMs is composed of the ML CODE"**
+<p align="center"> # Only a SMALL FRACTION of REAL-WORLD ML SYSTEMs is composed of the ML CODE</p> 
 
 _Courtsey Google NIPS 2015
 
