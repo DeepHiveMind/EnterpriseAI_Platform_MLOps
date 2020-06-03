@@ -75,7 +75,7 @@ _Courtsey Google NIPS 2015
          --o 'CD framework: Containerized & Container orachasteration by Container-as-a-Service ' (Docker, Kubernetes, Mesos)
          --o 'Microservice governance framework for Plug/Play of AI/ML system' (API Gateway, Microservice Service Mesh, Microservice Service Registry, Microservice Service Discovery, Microservice service internal communication protocol 
          --o 'Serverless Framework' (FaaS - OpenWhish/ OpenFaas, KNative)
-         --o 'Ontology/Knowledge Graph Annotation framework' (Apache Jena)
+         --o 'Application Load Balancer, Autoscaling, MultiZone Replication'
         ```       
 
      - "Comprehensive **DataOps"** 
