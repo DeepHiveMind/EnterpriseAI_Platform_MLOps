@@ -8,7 +8,6 @@ This repository intends to offers
 - State of Machine Learning Operations in Y'2019.
 - A prescriptive view of constituents, constructs and tools of a **comprehensive, operational & production Machine learning ecosystem** that any good **"Enterprise AI Platform"** must intend to stich/chain together under its hood. Genrally "Enterprise AI Platform", such as H20.ai/Alteryx/HopsML/PipelineAI etc are powered by **Custom MLOPS** with the objective to *attempt to offer* essential high level MLOps constructs.
 - A Deep Dive View into:
-    
     - ML Model Reproducitbility and Versioning
     - Production Machine Learning Orchestration
       - Explainablility of Black Box Models (a pillar of AI Trust)
