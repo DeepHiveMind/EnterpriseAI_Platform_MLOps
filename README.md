@@ -2,10 +2,17 @@
 
 
 # AI Platform MLOps | Production machine learning | Real Time ML System
+This repository intends to offers 
+- A Real-world vision and recepie of the `design, development and operation` of **production machine learning systems & operation**.
+- A curated list of tools, frameworks and open source libraries that helps AI/ML Engineers `Deploy, monitor, version, scale, and secure` production machine learning. 
+- State of Machine Learning Operations in Y'2019.
+      - Special attention has been given to **Ethical AI (a pillar of AI Trust)** in production machine learning systems with adequate deatiling around "Ethical AI Frameworks", "Codes of Ethics", "Guidelines", "Regulations" et al. Please Refer to [Ethical AI](/README_Ethical_AI.md).
+- A prescriptive view of constituents, constructs and tools of a comprehensive & operational Machine learning ecosystem that any good **"Enterprise AI Platform"** must intend to stich/chain together under its hood. Genrally "Enterprise AI Platform", such as H20.ai/Alteryx/HopsML/PipelineAI etc are powered by **Custom MLOPS** with the objective to *attempt to offer* essential high level MLOps constructs.
 
-This repository contains a curated list of tools, frameworks and open source libraries that helps AI/ML Engineers `Deploy, monitor, version, scale, and secure` production machine learning. 
+### INSPIRATION
+**WHY DO WE NEED MLOPS?**
 
-- **INSPIRATION**
+- 1. HIDDEN TECH DEBT IN REAL WORLD ML SYSTEM
 
 <p align="center"> # Productionization/Industralization Machine Learning Systems</p> 
 
@@ -25,10 +32,12 @@ _Courtsey Google NIPS 2015
 
 <p align="center">[HIDDEN TECH DEBT IN ML SYSTEM- NIPS/GOOGLE 2015](https://papers.nips.cc/paper/5656-hidden-technical-debt-in-machine-learning-systems.pdf)</p>
 
+- 2. 
 
-- **OBJECTIVE**
-   - Empowerment of the `design, development and operation` of **production machine learning systems**.
-   - Special attention to **Ethical AI (a pillar of AI Trust)** in production machine learning systems with adequate deatiling around "Ethical AI Frameworks", "Codes of Ethics", "Guidelines", "Regulations" et al. Please Refer to [Ethical AI](/README_Ethical_AI.md).
+
+
+### MLOPS essential high level constructs:
+
    - Any **"Enterprise AI Platform"** must intend to stich/chain together these constructs and tools under its hood. Genrally "Enterprise AI Platform", such as H20.ai/Alteryx/HopsML/PipelineAI etc are powered by **Custom MLOPS** with the objective to *attempt to offer* following key high level AI/ML constructs:
    
         - **"AI/ML Dataset Annotation"** 
@@ -83,7 +92,7 @@ _Courtsey Google NIPS 2015
         
 
 
-## Quick links to sections in this page
+## Detail Reference links to the sections in this page
 
 | | | |
 |-|-|-|
@@ -432,7 +441,7 @@ www.youtube.com/watch?v=zbjub8BQPyE)
 * [Talend Studio](https://www.talend.com/)
 * [Valohai](https://valohai.com/) - Machine orchestration, version control and pipeline management for deep learning.
 
-## 10 Min Video Overview
+## A Quick Video - MLOps Vantage View
 
 <table>
   <tr>
