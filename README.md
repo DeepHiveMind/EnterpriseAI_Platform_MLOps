@@ -1,7 +1,7 @@
 
 
 
-# AI Platform MLOps | Production machine learning | Real Time ML System
+# Production machine learning system| Real World ML System | Enterprise AI Platform MLOps 
 This repository intends to offers 
 - A Real-world vision and recepie of the `design, development and operation` of **production machine learning systems & operation**.
 - A curated list of tools, frameworks and open source libraries that helps AI/ML Engineers `Deploy, monitor, version, scale, and secure` production machine learning. 
