@@ -7,7 +7,12 @@ This repository intends to offers
 - A curated list of tools, frameworks and open source libraries that helps AI/ML Engineers `Deploy, monitor, version, scale, and secure` production machine learning. 
 - State of Machine Learning Operations in Y'2019.
       - Special attention has been given to **Ethical AI (a pillar of AI Trust)** in production machine learning systems with adequate deatiling around "Ethical AI Frameworks", "Codes of Ethics", "Guidelines", "Regulations" et al. Please Refer to [Ethical AI](/README_Ethical_AI.md).
-- A prescriptive view of constituents, constructs and tools of a comprehensive & operational Machine learning ecosystem that any good **"Enterprise AI Platform"** must intend to stich/chain together under its hood. Genrally "Enterprise AI Platform", such as H20.ai/Alteryx/HopsML/PipelineAI etc are powered by **Custom MLOPS** with the objective to *attempt to offer* essential high level MLOps constructs.
+- A prescriptive view of constituents, constructs and tools of a **comprehensive, operational & production Machine learning ecosystem** that any good **"Enterprise AI Platform"** must intend to stich/chain together under its hood. Genrally "Enterprise AI Platform", such as H20.ai/Alteryx/HopsML/PipelineAI etc are powered by **Custom MLOPS** with the objective to *attempt to offer* essential high level MLOps constructs.
+- A Deep Dive View into (Special attention has been give to):
+      - ML Model Reproducitbility and Versioning
+      - Production Machine Learning Orchestration
+      - Explainablility of Black Box Models (a pillar of AI Trust)
+      - **Ethical AI (a pillar of AI Trust)** with adequate deatiling around "Ethical AI Frameworks", "Codes of Ethics", "Guidelines", "Regulations" et al. [Ethical AI](/README_Ethical_AI.md).
 
 ### INSPIRATION
 **WHY DO WE NEED MLOPS?**
