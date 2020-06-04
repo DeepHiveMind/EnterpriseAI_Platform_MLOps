@@ -10,8 +10,8 @@ This repository intends to offers
 - A Deep Dive View into:
     - ML Model Reproducitbility and Versioning
     - Production Machine Learning Orchestration
-      - Explainablility of Black Box Models (a pillar of AI Trust)
-      - **Ethical AI (a pillar of AI Trust)** with adequate deatiling around "Ethical AI Frameworks", "Codes of Ethics", "Guidelines", "Regulations" et al. [Ethical AI](/README_Ethical_AI.md).
+    - Explainablility of Black Box Models (a pillar of AI Trust)
+    - **Ethical AI (a pillar of AI Trust)** with adequate deatiling around "Ethical AI Frameworks", "Codes of Ethics", "Guidelines", "Regulations" et al. [Ethical AI](/README_Ethical_AI.md).
 
 ### INSPIRATION
 **WHY DO WE NEED MLOPS?**
