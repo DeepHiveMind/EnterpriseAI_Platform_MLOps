@@ -2,7 +2,7 @@
 This repository intends to offers 
 - A Real-world vision and recepie of the `design, development and operation` of **production machine learning systems & operation**.
 - A curated list of tools, frameworks and open source libraries that helps AI/ML Engineers `Deploy, monitor, version, scale, and secure` production machine learning. 
-- A prescriptive view of constituents, constructs and tools of a **comprehensive, operational & production Machine learning ecosystem** that any good **"Enterprise AI Platform"** must intend to stich/chain together under its hood. Genrally "Enterprise AI Platform", such as H20.ai/Alteryx/HopsML/PipelineAI etc are powered by **Custom MLOPS** with the objective to *attempt to offer* essential high level MLOps constructs.
+- A Recepie/prescription of constituents, constructs and tools for to build & opertaionize a **comprehensive, operational & production Machine learning ecosystem** .Any good **Enterprise AI Platform** must intend to stich/chain together these constructs and tools under its hood. Genrally 'Enterprise AI Platforms', such as H20.ai/Alteryx/HopsML/PipelineAI etc, are powered by **Custom MLOPS** with the objective to *attempt to offer* essential high level MLOps constructs.
 - A Deep Dive View into:
     - ML Model Reproducitbility and Versioning
     - Production Machine Learning Orchestration
@@ -22,7 +22,7 @@ This repository intends to offers
 
 **WHY DO WE NEED MLOPS?**
 
-1. SIMPLY PUT ACROSS:
+1. **SIMPLY PUT ACROSS**
 
 *SMALL DATA SCIENCE PROJECTS*/POC/MVP has lesser complexities, than *ENTERPRISE DATA SCIENCE SYSTEM*.
 
@@ -44,7 +44,7 @@ THEREFORE, the SIMPLE WORKFLOW which worked pretty well for 'SMALL DATA SCIENCE 
 
 
 
-2. WHEN THE RUBBER HITS THE ROAD:
+2. **WHEN THE RUBBER HITS THE ROAD**
 
 As and when, the SMALL DATA SCIENCE PROJECTS/POC/MVPPOC/MVP hits the REAL WORLD SYSTEM, it starts to face new set of Challenges, 
 such as 
@@ -55,7 +55,7 @@ such as
 – **Security Vulnerability (If Hacked)**: Need to Train With Data Privacy (All your Data & other security is for a toss now as the Makert exposed AI Model has the essence of the underlying data.
        
 
-3. HIDDEN TECH DEBT IN REAL WORLD ML SYSTEM:
+3. **HIDDEN TECH DEBT IN REAL WORLD ML SYSTEM**
 
 <p align="center"> # HIDDEN TECH DEBT IN ML SYSTEM- NIPS/GOOGLE 2015</p> 
 
