@@ -16,7 +16,7 @@ This repository intends to offers
 - [State of Machine Learning Operations in Y2019](#State-of-Machine-Learning-Operations-in-Y2019)
 - [High level constructs of MLOPS](#High-level-constructs-of-MLOPS)
 - [Detail References to the Constructs and Tools of MLOPS](#Detail-References-to-the-Constructs-and-Tools-of-MLOPS)
-- [MLOPS VS DATAOPS VS AIOPS VS PLATFORMOPS]
+- [MLOPS VS DATAOPS VS AIOPS VS PLATFORMOPS](#MLOPS-VS-DATAOPS-VS-AIOPS-VS-PLATFORMOPS)
 - [Product Machine Learning System Y2019 A Video](#Product-Machine-Learning-System-Y2019-A-Video)
 
 ## INSPIRATION for MLOPS
