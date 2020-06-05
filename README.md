@@ -121,17 +121,30 @@ Any **"Enterprise Data Science System" / "Enterprise AI Platform"** must intend 
      --o 'AI Scalability' - Autoamted Load Balancing, Service Routing, AutoScaling
      
     ```
-- **"AI Operation Cost Optimization "** 
+
+ - **"Comprehensive Data Operations DataOps"** 
+  ```
+
+      --o 'Data pipelines & ETL'
+      --o 'Data Stream Processing' 
+      --o 'Data storage'
+   ``` 
+
+
+- **"Data & AI Operation CI/CD "** 
      ```
       --o 'CI framework' (Jeknis/ Travis CI)
       --o 'CD framework: Containerized & Container orachasteration by Container-as-a-Service ' (Docker, Kubernetes, Mesos)
-      --o 'Microservice governance framework for Plug/Play of AI/ML system' (API Gateway, Microservice Service Mesh, Microservice Service Registry, Microservice Service Discovery, Microservice service internal communication protocol 
-      --o 'Serverless Framework' (FaaS - OpenWhish/ OpenFaas, KNative)
-      --o 'Application Load Balancer, Autoscaling, MultiZone Replication'
      ```       
 
- - "Comprehensive **DataOps"** 
-
+- **"AI Operation Cost Optimatization"** 
+     ```
+ 
+      --o 'Serverless Framework' (FaaS - OpenWhish/ OpenFaas, KNative)
+      --o 'Microservice governance framework for Plug/Play of AI/ML system' (API Gateway, Microservice Service Mesh, Microservice Service Registry, Microservice Service Discovery, Microservice service internal communication protocol
+      --o 'Application Load Balancer, Autoscaling, MultiZone Replication'
+      
+     ```            
         
 
 
