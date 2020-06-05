@@ -35,7 +35,7 @@ THEREFORE, the SIMPLE WORKFLOW which worked pretty well for 'SMALL DATA SCIENCE 
 |**SMALL DATA SCIENCE PROJECTS**| **ENTERPRISE DATA SCIENCE SYSTEM**|
 | :---: | :---:|
 | Workflow | Workflow| 
-|<img src="images/Small_DataScience_Project.JPG" width="400" height="400" border="10">|<img src="images/mlops1.png" width="400" height="400" border="10">|
+|<img src="images/Small_DataScience_Project.JPG" width="400" height="200" border="10">|<img src="images/mlops1.png" width="400" height="200" border="10">|
 | Workflow Job well done | Still lot missing in the Workflow :smiley:| 
 
 
