@@ -19,7 +19,32 @@ This repository intends to offers
 ### INSPIRATION
 **WHY DO WE NEED MLOPS?**
 
-1. HIDDEN TECH DEBT IN REAL WORLD ML SYSTEM
+1. Simply put across: 
+**SMALL DATA SCIENCE PROJECTS**/POC/MVP has lesser complexities, than **ENTERPRISE DATA SCIENCE SYSTEM**.
+
+- **SMALL DATA SCIENCE PROJECTS**/POC/MVP is pretty good with the **workflow of 'Build/Prepare' --> 'Train' --> 'Evaluate'--> 'Deploy' --> 'UI' (a simple WebApp) **
+- But, as the Data Science(DS) requirements, productionization and, hence DS Teams grows, whole lot of new issues starts popping up in **ENTERPRISE DATA SCIENCE SYSTEM**. Such as 
+    - 'Increased complexities in flow of Data, 
+    - Data Science Tools proliferation (each siloed deptt would start using their own preferred DS tools, Serving Models become increasingly harder, 
+    - when stuff goes wrong it's hard to trace back, 
+    - Infrastructure needs, its governance starts growing rapidly
+    - & many More (See, whole lot of issues which is now being faced with Enterprise large Data Lakes)
+
+|**SMALL DATA SCIENCE PROJECTS**| **ENTERPRISE DATA SCIENCE SYSTEM**|
+| :---: | :---:|
+| Workflow | Workflow| 
+
+
+
+2. Real World ML System continue to face challenges, such as 
+- **Need to Re-Train**: After Pushing Your Model to Production, Your Model is already Out of Date. Google updates its SEO model/algorithm  on average 500 times per year. [Ref](https://www.seoblog.com/google-penguin-panda-refresh/#:~:text=Of%20course%2C%20these%20are%20not,average%20500%20times%20per%20year.)
+- **Slow**: Need to Quantize and Speed Up Predictions
+- **Biased**: Needs to Validate Trained ML Binary/ Service/ servable in any form for Bias detection Before Pushing 
+– **AI/ML Service Routing (If Broken)**: Need to A/B Test/ Multi Armed Bandit in Production 
+– **Security Vulnerability (If Hacked)**: Need to Train With Data Privacy (All your Data & other security is for a toss now as the Makert exposed AI Model has the essence of the underlying data.
+       
+
+3. HIDDEN TECH DEBT IN REAL WORLD ML SYSTEM
 
 <p align="center"> # Productionization/Industralization Machine Learning Systems</p> 
 
@@ -37,18 +62,9 @@ _Courtsey Google NIPS 2015
 <img alt="Google NIPS 2015" src="https://image.slidesharecdn.com/4brookewenigjulesdamji-180612221342/95/a-tale-of-three-deep-learning-frameworks-tensorflow-keras-and-deep-learning-pipelines-with-brooke-wenig-and-jules-damji-5-638.jpg?cb=1528841699">
 </p>
 
-<p align="center">[HIDDEN TECH DEBT IN ML SYSTEM- NIPS/GOOGLE 2015](https://papers.nips.cc/paper/5656-hidden-technical-debt-in-machine-learning-systems.pdf)</p>
-
-2. Real World ML System continue to face challenges, such as 
-- **Need to Re-Train**: After Pushing Your Model to Production, Your Model is already Out of Date. Google updates its SEO model/algorithm  on average 500 times per year. [Ref](https://www.seoblog.com/google-penguin-panda-refresh/#:~:text=Of%20course%2C%20these%20are%20not,average%20500%20times%20per%20year.)
-- **Slow**: Need to Quantize and Speed Up Predictions
-- **Biased**: Needs to Validate Trained ML Binary/ Service/ servable in any form for Bias detection Before Pushing 
-  
-– **AI/ML Service Routing (If Broken)**: Need to A/B Test/ Multi Armed Bandit in Production 
-– **Security Vulnerability (If Hacked)**: Need to Train With Data Privacy (All your Data & other security is for a toss now as the Makert exposed AI Model has the essence of the underlying data.
-       
-
-
+<p align="center">[HIDDEN TECH DEBT IN ML SYSTEM- NIPS/GOOGLE 2015](https://papers.nips.cc/paper/5656-hidden-technical-debt-in-machine-learning-systems.pdf)</p>  
+    
+MLOPS IS THE SILVER BULLET
 
 ### MLOPS essential high level constructs:
 
