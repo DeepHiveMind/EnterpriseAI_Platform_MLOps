@@ -40,16 +40,12 @@ _Courtsey Google NIPS 2015
 <p align="center">[HIDDEN TECH DEBT IN ML SYSTEM- NIPS/GOOGLE 2015](https://papers.nips.cc/paper/5656-hidden-technical-debt-in-machine-learning-systems.pdf)</p>
 
 2. Real World ML System continue to face challenges, such as 
-
-    – Need to Re-Train: After Pushing Your Model to Production, Your Model is already Out of Date. Google updates its SEO model/algorithm  on average 500 times per year. [Ref](https://www.seoblog.com/google-penguin-panda-refresh/#:~:text=Of%20course%2C%20these%20are%20not,average%20500%20times%20per%20year.)
-    
-    – Slow: Need to Quantize and Speed Up Predictions
-    
-    – Biased: Needs to Validate Trained ML Binary/ Service/ servable in any form for Bias detection Before Pushing 
-    
-    – AI/ML Service Routing (If Broken): Need to A/B Test/ Multi Armed Bandit in Production 
-    
-    – Security exposure if Hacked: Need to Train With Data Privacy (All your Data & other security is for a toss now as the Makert exposed AI Model has the essence of the underlying data.
+- **Need to Re-Train**: After Pushing Your Model to Production, Your Model is already Out of Date. Google updates its SEO model/algorithm  on average 500 times per year. [Ref](https://www.seoblog.com/google-penguin-panda-refresh/#:~:text=Of%20course%2C%20these%20are%20not,average%20500%20times%20per%20year.)
+- **Slow**: Need to Quantize and Speed Up Predictions
+- **Biased**: Needs to Validate Trained ML Binary/ Service/ servable in any form for Bias detection Before Pushing 
+  
+– **AI/ML Service Routing (If Broken)**: Need to A/B Test/ Multi Armed Bandit in Production 
+– **Security Vulnerability (If Hacked)**: Need to Train With Data Privacy (All your Data & other security is for a toss now as the Makert exposed AI Model has the essence of the underlying data.
        
 
 
