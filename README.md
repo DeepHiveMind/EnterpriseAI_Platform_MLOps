@@ -27,7 +27,7 @@ This repository intends to offers
 
 1. SIMPLY PUT ACROSS:
 
-**SMALL DATA SCIENCE PROJECTS**/POC/MVP has lesser complexities, than **ENTERPRISE DATA SCIENCE SYSTEM**.
+*SMALL DATA SCIENCE PROJECTS*/POC/MVP has lesser complexities, than *ENTERPRISE DATA SCIENCE SYSTEM*.
 
 - A simple **workflow of 'Build/Prepare' --> 'Train' --> 'Evaluate'--> 'Deploy' --> 'UI' (a simple WebApp)** does relatively very well with **SMALL DATA SCIENCE PROJECTS**/POC/MVP.
 - But, as the Data Science(DS) requirements, productionization and, hence DS Teams grows, whole lot of new issues starts popping up in **ENTERPRISE DATA SCIENCE SYSTEM**. Such as 
@@ -122,13 +122,6 @@ Any **"Enterprise Data Science System" / "Enterprise AI Platform"** must intend 
      
     ```
 
- - **"Comprehensive Data Operations DataOps"** 
-  ```
-
-      --o 'Data pipelines & ETL'
-      --o 'Data Stream Processing' 
-      --o 'Data storage'
-   ``` 
 
 
 - **"Data & AI Operation CI/CD "** 
@@ -145,7 +138,14 @@ Any **"Enterprise Data Science System" / "Enterprise AI Platform"** must intend 
       --o 'Application Load Balancer, Autoscaling, MultiZone Replication'
       
      ```            
-        
+ 
+ - **"Comprehensive Data Operations DataOps"** 
+  ```
+      --o 'Data pipelines & ETL'
+      --o 'Data Stream Processing' 
+      --o 'Data storage'
+   ``` 
+
 
 
 ## Detail References to the Constructs and Tools of MLOPS
