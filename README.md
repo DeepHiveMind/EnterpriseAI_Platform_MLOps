@@ -22,17 +22,20 @@ This repository intends to offers
 1. Simply put across: 
 **SMALL DATA SCIENCE PROJECTS**/POC/MVP has lesser complexities, than **ENTERPRISE DATA SCIENCE SYSTEM**.
 
-- **SMALL DATA SCIENCE PROJECTS**/POC/MVP is pretty good with the **workflow of 'Build/Prepare' --> 'Train' --> 'Evaluate'--> 'Deploy' --> 'UI' (a simple WebApp) **
+- A simple **workflow of 'Build/Prepare' --> 'Train' --> 'Evaluate'--> 'Deploy' --> 'UI' (a simple WebApp)** does relatively very well with **SMALL DATA SCIENCE PROJECTS**/POC/MVP.
 - But, as the Data Science(DS) requirements, productionization and, hence DS Teams grows, whole lot of new issues starts popping up in **ENTERPRISE DATA SCIENCE SYSTEM**. Such as 
     - 'Increased complexities in flow of Data, 
     - Data Science Tools proliferation (each siloed deptt would start using their own preferred DS tools, Serving Models become increasingly harder, 
     - when stuff goes wrong it's hard to trace back, 
     - Infrastructure needs, its governance starts growing rapidly
     - & many More (See, whole lot of issues which is now being faced with Enterprise large Data Lakes)
+    
+  THEREFORE, A SIMPLE WORKFLOW STARTS FAILING AND CRUMBLING.
 
 |**SMALL DATA SCIENCE PROJECTS**| **ENTERPRISE DATA SCIENCE SYSTEM**|
 | :---: | :---:|
 | Workflow | Workflow| 
+|<img src="images/Recent_Poll_PipelineAI_July2019_1.JPG" width="200" height="200" border="10">|<img src="images/Recent_Poll_PipelineAI_July2019_1.JPG" width="200" height="200" border="10">|
 
 
 
