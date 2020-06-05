@@ -18,7 +18,7 @@ This repository intends to offers
 
 - [INSPIRATION for MLOPS](#INSPIRATION_for_MLOPS)
 - [High level constructs of MLOPS](#High-level-constructs-of-MLOPS)
-- [Detail Reference to the Constructs & Tools of MLOPS](#Detail_Reference_to_the_Constructs_&_Tools_of_MLOPS)
+- [Detail Reference to the Constructs and Tools of MLOPS](#Detail_Reference_to_the_Constructs_and_Tools_of_MLOPS)
 - [Product Machine Learning System Y2019 A Video](#Product-Machine-Learning-System-Y2019-A-Video)
 
 ## INSPIRATION for MLOPS
@@ -135,7 +135,7 @@ Any **"Enterprise Data Science System" / "Enterprise AI Platform"** must intend 
         
 
 
-## Detail Reference to the Constructs & Tools of MLOPS
+## Detail Reference to the Constructs and Tools of MLOPS
 
 | | | |
 |-|-|-|
