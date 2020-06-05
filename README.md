@@ -83,15 +83,15 @@ MLOPS IS THE SILVER BULLET
 
 Any **"Enterprise Data Science System" / "Enterprise AI Platform"** must intend to stich/chain together at least the essential & high level constructs of MLOPS under its hood. Genrally "Enterprise AI Platform", such as H20.ai/Alteryx/HopsML/PipelineAI etc are powered by **Custom MLOPS** with the objective to *attempt to offer* following key high level AI/ML constructs:
    
-    - **"AI/ML Dataset Annotation"** 
+- **"AI/ML Dataset Annotation"** 
     ```
      --o 'Image Annotation framework' (VoTT, LabelImg, VIA ) 
      --o 'NLP/ Text Annotation framework' (spacy, explosion.ai,)
      --o 'Audio & Speech Annotation framework' (Web-Based Audio Sequencer, CrowdCurio/audio-annotator, annotationpro)
      --o 'Ontology/Knowledge Graph Annotation framework' (Apache Jena)
-    ```
-    
-    - **"AI/ML Pipeline"** 
+     ```
+          
+- **"AI/ML Pipeline"** 
     ```
      --o  AI/ML Model 'Build/Prepare' (Notebook/ Visual AI Studio with dockerized support to AI/ML Libraries-TF/PyTorch/SparkML/XGboost/,  EDA libraries, Pre-processing libraries, Data Augmentation Libraries, Adversarial Robustness Libraries) 
      --> 'Train' (Computation load distribution frameworks for 'Distributed/Standalone tarining' on accelerated neural network hardware -GPU/TPU/CPU- with support for real time Training Visualization - TensorBoard/VisualDL)
@@ -102,15 +102,15 @@ Any **"Enterprise Data Science System" / "Enterprise AI Platform"** must intend 
      -->  'Automated Re-training pathway' (Airflow)
     ```
     
-    - **"Automated ML"** 
+- **"Automated ML"** 
     ```
       'HPO' - Hyper Parameter Optimization,
       'Randmoized/Grid Serach',
       'NAS' - Neural Architecture Search,  
       'AutoML'         
     ```
-       
-    - **"Comprehensive AI Governances"** 
+
+- **"Comprehensive AI Governances"** 
     ```
      --o 'AI TRUST' - Explainable AI, Ethical AI, Fair AI, Feature Management & Stoarge, 'Model and Data Versioning',
      
@@ -121,7 +121,7 @@ Any **"Enterprise Data Science System" / "Enterprise AI Platform"** must intend 
      --o 'AI Scalability' - Autoamted Load Balancing, Service Routing, AutoScaling
      
     ```
-    - **"AI Operation Cost Optimization "** 
+- **"AI Operation Cost Optimization "** 
      ```
       --o 'CI framework' (Jeknis/ Travis CI)
       --o 'CD framework: Containerized & Container orachasteration by Container-as-a-Service ' (Docker, Kubernetes, Mesos)
@@ -130,7 +130,7 @@ Any **"Enterprise Data Science System" / "Enterprise AI Platform"** must intend 
       --o 'Application Load Balancer, Autoscaling, MultiZone Replication'
      ```       
 
-     - "Comprehensive **DataOps"** 
+ - "Comprehensive **DataOps"** 
 
         
 
