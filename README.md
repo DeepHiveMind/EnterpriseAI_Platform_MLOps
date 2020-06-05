@@ -16,6 +16,7 @@ This repository intends to offers
 - [State of Machine Learning Operations in Y2019](#State-of-Machine-Learning-Operations-in-Y2019)
 - [High level constructs of MLOPS](#High-level-constructs-of-MLOPS)
 - [Detail References to the Constructs and Tools of MLOPS](#Detail-References-to-the-Constructs-and-Tools-of-MLOPS)
+- [MLOPS VS DATAOPS VS AIOPS VS PLATFORMOPS]
 - [Product Machine Learning System Y2019 A Video](#Product-Machine-Learning-System-Y2019-A-Video)
 
 ## INSPIRATION for MLOPS
@@ -159,6 +160,20 @@ Any **"Enterprise Data Science System" / "Enterprise AI Platform"** must intend 
 | [🗺️ ML Training Computation distribution]() | [📊 ML Training & Indutrial Visualisation frameworks](/README_ML%20Computation%20load%20distribution%20frameworks.md) |[⚔ Adversarial Robustness](README_Adversarial%20Robustness%20Libraries.md) |[📥 Model serialisation](/README_Model%20serialisation%20formats.md) |
 |[🔍 Explaining predictions & models](/README_Explaining%20Black%20Box%20Models.md) | [🔏 Privacy preserving ML](/README_Privacy%20Preserving%20Machine%20Learning.md) | [📜 Model & data versioning](/README_Model%20and%20Data%20Versioning.md)| [🧮 Optimized calculation frameworks](/README_Optimized%20calculation%20frameworks.md) |
 |[🤖 AutoML](/README_Neural%20Architecture%20Search.md)| [📡 Functions as a service](README_Function%20as%20a%20Service%20Frameworks.md) | [🔠 Industry-strength NLP](/README_Industrial%20Strength%20NLP.md) | [💰 Commercial Platforms](/README_Commercial%20Platforms.md) | 
+
+## MLOPS VS DATAOPS VS AIOPS VS PLATFORMOPS
+
+DevOps fits everywhere. Infact, DevOps dons multiple avataar in the broader perspective of Enterprise AI & Data landscape:  
+
+- **MLOps** is the application DevOps for AI, ML & Analytics foundation for to help Data Scientists in managing ML Lifecycle (building-training-deployment-monitroing-Trust lifecycle).
+“MLOps (a compound of “machine learning” and “operations”) is a practice for collaboration and communication between data scientists and operations professionals to help manage production ML (or deep learning) lifecycle. – Wiki
+
+- **DataOps** is the application DevOps for data foundation for to help Data Engineers in managing Data Lifecycle. 
+DataOps is a collaborative data management practice focused on improving the communication, integration and automation of data flows between data managers and data consumers across an organization. -Gartner
+
+- The term **AIOps** stands for “artificial intelligence for IT operations” Originally coined by Gartner in 2017, the term refers to the way data and information from an IT environment are managed by an IT team–in this case, using AI. It's the application DevOps for for IT operations assited by AI.
+
+- **PlatformOps** - Any Enterprise Platform is driven by PlatformOps for Building-Rolling_upgrade-Deployment of Platform in customer’s preferred choice of Infrastructure in accelerated fashion with ‘consistent deployment’ theme. 
 
 
 
