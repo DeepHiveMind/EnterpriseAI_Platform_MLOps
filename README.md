@@ -1,6 +1,3 @@
-
-
-
 # Production machine learning system| Real World ML System | Enterprise AI Platform MLOps 
 This repository intends to offers 
 - A Real-world vision and recepie of the `design, development and operation` of **production machine learning systems & operation**.
@@ -16,7 +13,15 @@ This repository intends to offers
     - Explainablility of Black Box Models (a pillar of AI Trust)
     - **Ethical AI (a pillar of AI Trust)** with adequate deatiling around "Ethical AI Frameworks", "Codes of Ethics", "Guidelines", "Regulations" et al. [Ethical AI](/README_Ethical_AI.md).
 
-### INSPIRATION
+
+**A Quick Rundown:**
+[INSPIRATION for MLOPS](#INSPIRATION_for_MLOPS)
+[Essential & high level constructs of MLOPS](#Essential-&-high-level-constructs-of-MLOPS)
+[Detail Reference to the constructs & Tools of MLOPS](#Detail Reference-to-the-constructs-&-Tools-of-MLOPS)
+[Product Machine Learning System @2019- A Video](#Product-Machine-Learning-System-@2019---A-Video)
+
+## INSPIRATION for MLOPS
+
 **WHY DO WE NEED MLOPS?**
 
 1. SIMPLY PUT ACROSS:
@@ -73,9 +78,9 @@ _Courtsey Google NIPS 2015
     
 MLOPS IS THE SILVER BULLET
 
-### MLOPS essential high level constructs:
+## Essential & high level constructs of MLOPS
 
-   - Any **"Enterprise AI Platform"** must intend to stich/chain together these constructs and tools under its hood. Genrally "Enterprise AI Platform", such as H20.ai/Alteryx/HopsML/PipelineAI etc are powered by **Custom MLOPS** with the objective to *attempt to offer* following key high level AI/ML constructs:
+Any **"Enterprise Data Science System" / "Enterprise AI Platform"** must intend to stich/chain together at least the essential & high level constructs of MLOPS under its hood. Genrally "Enterprise AI Platform", such as H20.ai/Alteryx/HopsML/PipelineAI etc are powered by **Custom MLOPS** with the objective to *attempt to offer* following key high level AI/ML constructs:
    
         - **"AI/ML Dataset Annotation"** 
         ```
@@ -129,7 +134,7 @@ MLOPS IS THE SILVER BULLET
         
 
 
-## Detail Reference links to the sections in this page
+## Detail Reference to the constructs & Tools of MLOPS
 
 | | | |
 |-|-|-|
@@ -478,7 +483,7 @@ www.youtube.com/watch?v=zbjub8BQPyE)
 * [Talend Studio](https://www.talend.com/)
 * [Valohai](https://valohai.com/) - Machine orchestration, version control and pipeline management for deep learning.
 
-## A Quick Video - MLOps Vantage View
+## Product Machine Learning System @2019- A Video
 
 <table>
   <tr>
