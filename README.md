@@ -16,9 +16,9 @@ This repository intends to offers
 
 **A Quick Rundown:**
 
-- ["INSPIRATION for MLOPS"](#INSPIRATION_for_MLOPS)
-- ["Essential & high level constructs of MLOPS"](#Essential-&-high-level-constructs-of-MLOPS)
-- ["Detail Reference to the constructs & Tools of MLOPS"](#Detail-Reference-to-the-constructs-&-Tools-of-MLOPS)
+- [INSPIRATION for MLOPS](#INSPIRATION_for_MLOPS)
+- [High level constructs of MLOPS](#High-level-constructs-of-MLOPS)
+- [Detail Reference to the constructs & Tools of MLOPS](#Detail-Reference-to-the-constructs-&-Tools-of-MLOPS)
 - [Product Machine Learning System Y2019 A Video](#Product-Machine-Learning-System-Y2019-A-Video)
 
 ## INSPIRATION for MLOPS
@@ -79,7 +79,7 @@ _Courtsey Google NIPS 2015
     
 MLOPS IS THE SILVER BULLET
 
-## Essential & high level constructs of MLOPS
+## High level constructs of MLOPS
 
 Any **"Enterprise Data Science System" / "Enterprise AI Platform"** must intend to stich/chain together at least the essential & high level constructs of MLOPS under its hood. Genrally "Enterprise AI Platform", such as H20.ai/Alteryx/HopsML/PipelineAI etc are powered by **Custom MLOPS** with the objective to *attempt to offer* following key high level AI/ML constructs:
    
