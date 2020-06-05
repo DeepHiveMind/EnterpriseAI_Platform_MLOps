@@ -1,13 +1,13 @@
 # Production machine learning system| Real World ML System | Enterprise AI Platform MLOps 
 This repository intends to offers 
-- A Real-world vision and recepie of the `design, development and operation` of **production machine learning systems & operation**.
+- A Real-world *vision and recepie* of the `design, development and operation` of **production machine learning systems & operation**.
 - A curated list of tools, frameworks and open source libraries that helps AI/ML Engineers `Deploy, monitor, version, scale, and secure` production machine learning. 
-- A Recepie/prescription of constituents, constructs and tools for to build & opertaionize a **comprehensive, operational & production Machine learning ecosystem** .Any good **Enterprise AI Platform** must intend to stich/chain together these constructs and tools under its hood. Genrally 'Enterprise AI Platforms', such as H20.ai/Alteryx/HopsML/PipelineAI etc, are powered by **Custom MLOPS** with the objective to *attempt to offer* essential high level MLOps constructs.
+- A *Recepie/prescription* of constituents, constructs and tools for to build & opertaionize a **comprehensive, operational & production Machine learning ecosystem** .Any good **Enterprise AI Platform** must intend to stich/chain together these constructs and tools under its hood. Genrally 'Enterprise AI Platforms', such as H20.ai/Alteryx/HopsML/PipelineAI etc, are powered by **Custom MLOPS** with the objective to *attempt to offer* essential high level MLOps constructs.
 - A Deep Dive View into:
     - ML Model Reproducitbility and Versioning
     - Production Machine Learning Orchestration
     - Explainablility of Black Box Models (a pillar of AI Trust)
-    - **Ethical AI (a pillar of AI Trust)** with adequate deatiling around "Ethical AI Frameworks", "Codes of Ethics", "Guidelines", "Regulations" et al. [Ethical AI](/README_Ethical_AI.md).
+    - **Ethical AI (a pillar of AI Trust)** with adequate deatiling around ```Ethical AI Frameworks, Codes of Ethics, Guidelines, Regulations``` et al. [Ethical AI](/README_Ethical_AI.md).
 
 
 **A Quick Rundown:**
