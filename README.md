@@ -127,11 +127,20 @@ Any **"Enterprise Data Science System" / "Enterprise AI Platform"** must intend 
 
 
 
-- **"Data & AI Operation CI/CD "** 
+- **"Data & AI CI/CD Operations "** 
      ```
-      --o 'CI framework' (Jeknis/ Travis CI)
-      --o 'CD framework: Containerized & Container orachasteration by Container-as-a-Service ' (Docker, Kubernetes, Mesos)
-     ```       
+     o 'REQUIREMENT & AGILE COLLABORATION TOOLS' (Jira/ Confluence)
+     o 'SCM TOOLS (GIT - GitHub/GitLab)
+     o 'CI ENGINE' (Jeknis/ Travis CI)
+     o 'BUILD TOOLS' (Maven/ Grunt / Wheel)
+     o 'UNIT TESTING TOOLS' (PyTest/ JUnit / Mocha / Jasmine) 
+     o 'CODE COVERAGE TOOLS' (SonarQube)
+     o 'CD PIPELINE/FRAMEWORK- 1' ( Ansible/ Chef / Puppet)  
+     o 'ARTEFACT REPOSITORY MANAGER TOOLS' (Nexus/ Artefactory)
+     o 'FUNCTIONAL TESTING TOOLS' ('Selenium')
+     o 'SECURITY SCAN TESTING (SAST/DAST) TOOLS' (CheckMarx/ Fortify / BalckDuck)
+     o ''CD PIPELINE/FRAMEWORK- 2' Containerized & Container orachasteration by Container-as-a-Service ' (Containerization - Docker, CaaS -Kubernetes, IaC - Terraform) 
+      ```       
 
 - **"AI Operation Cost Optimatization"** 
      ```
