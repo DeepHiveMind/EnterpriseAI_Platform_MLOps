@@ -19,7 +19,8 @@ This repository intends to offers
 ### INSPIRATION
 **WHY DO WE NEED MLOPS?**
 
-1. Simply put across: 
+1. SIMPLY PUT ACROSS:
+
 **SMALL DATA SCIENCE PROJECTS**/POC/MVP has lesser complexities, than **ENTERPRISE DATA SCIENCE SYSTEM**.
 
 - A simple **workflow of 'Build/Prepare' --> 'Train' --> 'Evaluate'--> 'Deploy' --> 'UI' (a simple WebApp)** does relatively very well with **SMALL DATA SCIENCE PROJECTS**/POC/MVP.
@@ -40,7 +41,10 @@ THEREFORE, the SIMPLE WORKFLOW which worked pretty well for 'SMALL DATA SCIENCE 
 
 
 
-2. Real World ML System continue to face challenges, such as 
+2. WHEN THE RUBBER HITS THE ROAD:
+
+As and when, the SMALL DATA SCIENCE PROJECTS/POC/MVPPOC/MVP hits the REAL WORLD SYSTEM, it starts to face new set of Challenges, 
+such as 
 - **Need to Re-Train**: After Pushing Your Model to Production, Your Model is already Out of Date. Google updates its SEO model/algorithm  on average 500 times per year. [Ref](https://www.seoblog.com/google-penguin-panda-refresh/#:~:text=Of%20course%2C%20these%20are%20not,average%20500%20times%20per%20year.)
 - **Slow**: Need to Quantize and Speed Up Predictions
 - **Biased**: Needs to Validate Trained ML Binary/ Service/ servable in any form for Bias detection Before Pushing 
@@ -48,13 +52,7 @@ THEREFORE, the SIMPLE WORKFLOW which worked pretty well for 'SMALL DATA SCIENCE 
 – **Security Vulnerability (If Hacked)**: Need to Train With Data Privacy (All your Data & other security is for a toss now as the Makert exposed AI Model has the essence of the underlying data.
        
 
-3. HIDDEN TECH DEBT IN REAL WORLD ML SYSTEM
-
-<p align="center"> # Productionization/Industralization Machine Learning Systems</p> 
-
-<p align="center"> # Only a SMALL FRACTION of REAL-WORLD ML SYSTEMs is composed of the ML CODE</p> 
-
-<p align="center"> # Hardest part of AI isn't AI, but it's Data & productionization</p> 
+3. HIDDEN TECH DEBT IN REAL WORLD ML SYSTEM:
 
 <p align="center"> # HIDDEN TECH DEBT IN ML SYSTEM- NIPS/GOOGLE 2015</p> 
 
@@ -67,6 +65,11 @@ _Courtsey Google NIPS 2015
 </p>
 
 <p align="center">[HIDDEN TECH DEBT IN ML SYSTEM- NIPS/GOOGLE 2015](https://papers.nips.cc/paper/5656-hidden-technical-debt-in-machine-learning-systems.pdf)</p>  
+
+
+<p align="center"> # Hardest part of AI isn't AI, but it's Data & productionization</p> 
+
+<p align="center"> # Productionization/Industralization Machine Learning Systems</p> 
     
 MLOPS IS THE SILVER BULLET
 
