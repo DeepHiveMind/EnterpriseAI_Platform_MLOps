@@ -15,10 +15,11 @@ This repository intends to offers
 
 
 **A Quick Rundown:**
-[INSPIRATION for MLOPS](#INSPIRATION_for_MLOPS)
-[Essential & high level constructs of MLOPS](#Essential-&-high-level-constructs-of-MLOPS)
-[Detail Reference to the constructs & Tools of MLOPS](#Detail Reference-to-the-constructs-&-Tools-of-MLOPS)
-[Product Machine Learning System @2019- A Video](#Product-Machine-Learning-System-@2019---A-Video)
+
+- ["INSPIRATION for MLOPS"](#INSPIRATION_for_MLOPS)
+- ["Essential & high level constructs of MLOPS"](#Essential-&-high-level-constructs-of-MLOPS)
+- ["Detail Reference to the constructs & Tools of MLOPS"](#Detail-Reference-to-the-constructs-&-Tools-of-MLOPS)
+- [Product Machine Learning System Y2019 A Video](#Product-Machine-Learning-System-Y2019-A-Video)
 
 ## INSPIRATION for MLOPS
 
@@ -483,7 +484,7 @@ www.youtube.com/watch?v=zbjub8BQPyE)
 * [Talend Studio](https://www.talend.com/)
 * [Valohai](https://valohai.com/) - Machine orchestration, version control and pipeline management for deep learning.
 
-## Product Machine Learning System @2019- A Video
+## Product Machine Learning System Y2019 A Video
 
 <table>
   <tr>
