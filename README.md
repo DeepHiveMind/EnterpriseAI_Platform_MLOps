@@ -16,6 +16,7 @@ This repository intends to offers
 - [State of Machine Learning Operations in Y2019](#State-of-Machine-Learning-Operations-in-Y2019)
 - [High level constructs of MLOPS](#High-level-constructs-of-MLOPS)
 - [Detail References to the Constructs and Tools of MLOPS](#Detail-References-to-the-Constructs-and-Tools-of-MLOPS)
+- [MLOPS Architecture](#MLOPS-Architecture)
 - [MLOPS VS DATAOPS VS AIOPS VS PLATFORMOPS](#MLOPS-VS-DATAOPS-VS-AIOPS-VS-PLATFORMOPS)
 - [Product Machine Learning System Y2019 A Video](#Product-Machine-Learning-System-Y2019-A-Video)
 
@@ -159,6 +160,11 @@ Any **"Enterprise Data Science System" / "Enterprise AI Platform"** must intend 
       --o 'Data TRUST'      
    ``` 
 
+## MLOPS Architecture
+
+MLOPS Architecture from One of visionary AI platform with specialized service offering in MLOPS:
+<img src="images/Small_DataScience_Project.JPG" width="700" height="500" border="10">
+Reference: [Neuomation AI Platform](https://neu.ro/)
 
 
 ## Detail References to the Constructs and Tools of MLOPS
