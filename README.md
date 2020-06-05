@@ -30,12 +30,13 @@ This repository intends to offers
     - Infrastructure needs, its governance starts growing rapidly
     - & many More (See, whole lot of issues which is now being faced with Enterprise large Data Lakes)
     
-  THEREFORE, A SIMPLE WORKFLOW STARTS FAILING AND CRUMBLING.
+THEREFORE, the SIMPLE WORKFLOW which worked pretty well for 'SMALL DATA SCIENCE PROJECTS' starts failing and crumbling under the complexities of 'ENTERPRISE DATA SCIENCE SYSTEM'.
 
 |**SMALL DATA SCIENCE PROJECTS**| **ENTERPRISE DATA SCIENCE SYSTEM**|
 | :---: | :---:|
 | Workflow | Workflow| 
-|<img src="images/Recent_Poll_PipelineAI_July2019_1.JPG" width="200" height="200" border="10">|<img src="images/Recent_Poll_PipelineAI_July2019_1.JPG" width="200" height="200" border="10">|
+|<img src="images/Small_DataScience_Project.JPG" width="400" height="400" border="10">|<img src="images/mlops1.png" width="400" height="400" border="10">|
+| Workflow Job well done | Still lot missing in the Workflow :smiley:| 
 
 
 
