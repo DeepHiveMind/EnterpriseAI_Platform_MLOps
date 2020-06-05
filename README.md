@@ -76,7 +76,7 @@ _Courtsey Google NIPS 2015
 
 <p align="center"> # Productionization/Industralization Machine Learning Systems</p> 
     
-MLOPS IS THE SILVER BULLET
+**MLOPS IS THE SILVER BULLET!**
 
 ## State of Machine Learning Operations in Y2019
 
@@ -163,7 +163,8 @@ Any **"Enterprise Data Science System" / "Enterprise AI Platform"** must intend 
 ## MLOPS Architecture
 
 MLOPS Architecture from One of visionary AI platform with specialized service offering in MLOPS:
-<img src="images/Small_DataScience_Project.JPG" width="700" height="500" border="10">
+<img src="images/FullMlopsNeuro.JPG" width="700" height="500" border="10">
+
 Reference: [Neuomation AI Platform](https://neu.ro/)
 
 
