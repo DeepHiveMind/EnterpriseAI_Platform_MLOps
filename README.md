@@ -2,10 +2,6 @@
 This repository intends to offers 
 - A Real-world vision and recepie of the `design, development and operation` of **production machine learning systems & operation**.
 - A curated list of tools, frameworks and open source libraries that helps AI/ML Engineers `Deploy, monitor, version, scale, and secure` production machine learning. 
-- State of Machine Learning Operations in Y'2019.
-
-<img src="images/Recent_Poll_PipelineAI_July2019_1.JPG" width="900" height="400" border="10">  
-
 - A prescriptive view of constituents, constructs and tools of a **comprehensive, operational & production Machine learning ecosystem** that any good **"Enterprise AI Platform"** must intend to stich/chain together under its hood. Genrally "Enterprise AI Platform", such as H20.ai/Alteryx/HopsML/PipelineAI etc are powered by **Custom MLOPS** with the objective to *attempt to offer* essential high level MLOps constructs.
 - A Deep Dive View into:
     - ML Model Reproducitbility and Versioning
@@ -17,6 +13,7 @@ This repository intends to offers
 **A Quick Rundown:**
 
 - [INSPIRATION for MLOPS](#INSPIRATION_for_MLOPS)
+- [State of Machine Learning Operations in Y2019](#State-of-Machine-Learning-Operations-in-Y2019)
 - [High level constructs of MLOPS](#High-level-constructs-of-MLOPS)
 - [Detail References to the Constructs and Tools of MLOPS](#Detail-References-to-the-Constructs-and-Tools-of-MLOPS)
 - [Product Machine Learning System Y2019 A Video](#Product-Machine-Learning-System-Y2019-A-Video)
@@ -78,6 +75,11 @@ _Courtsey Google NIPS 2015
 <p align="center"> # Productionization/Industralization Machine Learning Systems</p> 
     
 MLOPS IS THE SILVER BULLET
+
+## State of Machine Learning Operations in Y2019
+
+Survey conducted by PipelineAI in July 2019: State of Machine learning Operations -
+<img src="images/Recent_Poll_PipelineAI_July2019_1.JPG" width="900" height="400" border="10"> 
 
 ## High level constructs of MLOPS
 
