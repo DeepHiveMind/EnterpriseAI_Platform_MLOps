@@ -6,7 +6,10 @@ This repository intends to offers
 - A Real-world vision and recepie of the `design, development and operation` of **production machine learning systems & operation**.
 - A curated list of tools, frameworks and open source libraries that helps AI/ML Engineers `Deploy, monitor, version, scale, and secure` production machine learning. 
 - State of Machine Learning Operations in Y'2019.
-[State_2019](/https://github.com/DeepHiveMind/EnterpriseAI_Platform_MLOps/blob/master/images/Recent_Poll_PipelineAI_July2019_1.JPG)
+
+<p align="center">
+<img alt='Sate' src='https://github.com/DeepHiveMind/EnterpriseAI_Platform_MLOps/blob/master/images/Recent_Poll_PipelineAI_July2019_1.JPG' width=400 ></p>
+
 - A prescriptive view of constituents, constructs and tools of a **comprehensive, operational & production Machine learning ecosystem** that any good **"Enterprise AI Platform"** must intend to stich/chain together under its hood. Genrally "Enterprise AI Platform", such as H20.ai/Alteryx/HopsML/PipelineAI etc are powered by **Custom MLOPS** with the objective to *attempt to offer* essential high level MLOps constructs.
 - A Deep Dive View into:
     - ML Model Reproducitbility and Versioning
