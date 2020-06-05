@@ -154,11 +154,11 @@ Any **"Enterprise Data Science System" / "Enterprise AI Platform"** must intend 
 
 | | | | |
 |-|-|-|-|
-| [🧵 Data pipelines & ETL]()| [💸 Data Stream Processing]() |[🗞️ Data storage]() |[🏷️ Data Labelling]()|
+| [🧵 Data pipelines & ETL](/README_Data%20Pipeline%20ETL%20Frameworks.md)| [💸 Data Stream Processing]() |[🗞️ Data storage]() |[🏷️ Data Labelling]()|
 | [🌀 Feature engineering]()| [🎁 Feature Stores]()| [📓 Reproducible Notebooks]()|[🏁 Model Orchestration & Deployment Framework]()|
 | [🗺️ ML Training Computation distribution]() | [📊 ML Training & Indutrial Visualisation frameworks]() |[⚔ Adversarial Robustness]() |[📥 Model serialisation]() |
 |[🔍 Explaining predictions & models]() | [🔏 Privacy preserving ML]() | [📜 Model & data versioning]()| [🧮 Optimized calculation frameworks]() |
-|[🤖 Neural Architecture Search]()| [📡 Functions as a service]() | [🔠 Industry-strength NLP]() | [💰 Commercial Platforms]() | 
+|[🤖 AutoML]()| [📡 Functions as a service]() | [🔠 Industry-strength NLP]() | [💰 Commercial Platforms]() | 
 
 
 
