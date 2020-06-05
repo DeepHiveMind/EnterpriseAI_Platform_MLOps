@@ -156,6 +156,7 @@ Any **"Enterprise Data Science System" / "Enterprise AI Platform"** must intend 
       --o 'Data pipelines & ETL'
       --o 'Data Stream Processing' 
       --o 'Data storage'
+      --o 'Data TRUST'      
    ``` 
 
 
