@@ -100,10 +100,12 @@ Any **"Enterprise Data Science System" / "Enterprise AI Platform"** must intend 
      --o  AI/ML Model 'Build/Prepare' (Notebook/ Visual AI Studio with dockerized support to AI/ML Libraries-TF/PyTorch/SparkML/XGboost/,  EDA libraries, Pre-processing libraries, Data Augmentation Libraries, Adversarial Robustness Libraries) 
      --> 'Train' (Computation load distribution frameworks for 'Distributed/Standalone tarining' on accelerated neural network hardware -GPU/TPU/CPU- with support for real time Training Visualization - TensorBoard/VisualDL)
      --> 'Evaluate'
-     --> 'Deploy' (AI-as-a-Service -RESTful/gRPC API- , or, Binary Servables, or, Edge/Mobile deployment)
-     --> 'Model Serialization & Quantization'  
+     --> 'Model Serialization & Quantization' (Using TF-Serving, ONNX Runtime, Seldon Core et al)
+     --> 'Deploy' (AI-as-a-Service -RESTful/gRPC API, or, Binary Servables, or, Edge/Mobile deployment)
+     --> 'AI Inference Service Routing' ('Service Mesh' like Istio)
      --> 'Monitor' (Data drift & Concept drift with Alert) 
-     -->  'Automated Re-training pathway' (Airflow)
+     --> 'Automated Re-training pathway' (Airflow)
+     --> 'User Interface' (PWA/ MobileApp / Web App)
     ```
     
 - **"Automated ML"** 
@@ -123,12 +125,21 @@ Any **"Enterprise Data Science System" / "Enterprise AI Platform"** must intend 
      --o 'AI Security' - Privacy Preserving Machine Learning, AI/ML API Security (Authentican & Authorization)
      
      --o 'AI Scalability' - Autoamted Load Balancing, Service Routing, AutoScaling
-     
+      
     ```
 
-
-
-- **"Data & AI CI/CD Operations "** 
+- **"AI Operation Cost Optimatization"** 
+     ```
+ 
+      --o 'Serverless Framework' (FaaS - Apache OpenWhish/ OpenFaas,  KNative)
+      --o 'Hybrid Computing/ processing' (Local Edge Processing + Centralized Cloud Processing)
+      --o 'Modular Plug & Play of AI/ML system leveraging Microservice governance framework' (API Gateway, Microservice Service Mesh, Microservice Service Registry, Microservice Service Discovery,  Service Config, Microservice service internal communication protocol etc)
+      --o Containerization (Docker) & CaaS (K8S)
+      --o 'Application Load Balancer, Autoscaling, MultiZone Replication'
+      
+     ```            
+ 
+ - **"Data & AI CI/CD Operations "** 
      ```
      o 'REQUIREMENT & AGILE COLLABORATION TOOLS' (Jira/ Confluence)
      o 'SCM TOOLS (GIT - GitHub/GitLab)
@@ -142,21 +153,14 @@ Any **"Enterprise Data Science System" / "Enterprise AI Platform"** must intend 
      o 'SECURITY SCAN TESTING (SAST/DAST) TOOLS' (CheckMarx/ Fortify / BalckDuck)
      o ''CD PIPELINE/FRAMEWORK- 2' Containerized & Container orachasteration by Container-as-a-Service ' (Containerization - Docker, CaaS -Kubernetes, IaC - Terraform) 
       ```       
-
-- **"AI Operation Cost Optimatization"** 
-     ```
  
-      --o 'Serverless Framework' (FaaS - OpenWhish/ OpenFaas, KNative)
-      --o 'Microservice governance framework for Plug/Play of AI/ML system' (API Gateway, Microservice Service Mesh, Microservice Service Registry, Microservice Service Discovery, Microservice service internal communication protocol
-      --o 'Application Load Balancer, Autoscaling, MultiZone Replication'
-      
-     ```            
  
  - **"Comprehensive Data Operations DataOps"** 
   ```
       --o 'Data pipelines & ETL'
       --o 'Data Stream Processing' 
-      --o 'Data storage'
+      --o 'Data storage & Optimization'
+      --o 'Data Intertcive Querying Interface'
       --o 'Data TRUST'      
    ``` 
 
