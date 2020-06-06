@@ -125,6 +125,12 @@ Any **"Enterprise Data Science System" / "Enterprise AI Platform"** must intend 
      --o 'AI Security' - Privacy Preserving Machine Learning, AI/ML API Security (Authentican & Authorization)
      
      --o 'AI Scalability' - Autoamted Load Balancing, Service Routing, AutoScaling
+     
+     --o 'AI Inference Model Update/ Roll out' Mechanism 
+            - Blue Green Deployment
+	        - Canary Deployment 
+	        - Multi Armed Bandit Deployment
+	        - A/B
       
     ```
 
