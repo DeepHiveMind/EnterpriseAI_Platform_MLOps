@@ -124,24 +124,31 @@ Any **"Enterprise Data Science System" / "Enterprise AI Platform"** must intend 
      
      --o 'AI Security' - Privacy Preserving Machine Learning, AI/ML API Security (Authentican & Authorization)
      
-     --o 'AI Scalability' - Autoamted Load Balancing, Service Routing, AutoScaling
+     --o 'AI Scalability' - Autoamted Load Balancing, Service Routing, AutoScaling, MultiZone Replication, Caching
      
      --o 'AI Inference Model Update/ Roll out' Mechanism 
-            - Blue Green Deployment
+            	- Blue Green Deployment
 	        - Canary Deployment 
 	        - Multi Armed Bandit Deployment
 	        - A/B
       
     ```
 
-- **"AI Operation Cost Optimatization"** 
+- **"ML Operation COST Optimization"** 
      ```
  
-      --o 'Serverless Framework' (FaaS - Apache OpenWhish/ OpenFaas,  KNative)
-      --o 'Hybrid Computing/ processing' (Local Edge Processing + Centralized Cloud Processing)
-      --o 'Modular Plug & Play of AI/ML system leveraging Microservice governance framework' (API Gateway, Microservice Service Mesh, Microservice Service Registry, Microservice Service Discovery,  Service Config, Microservice service internal communication protocol etc)
-      --o Containerization (Docker) & CaaS (K8S)
-      --o 'Application Load Balancer, Autoscaling, MultiZone Replication'
+      --o 'Serverless Framework' 
+      			- FaaS: Apache OpenWhish/ OpenFaas,  
+			- KNative
+      
+      --o 'Hybrid Computing/ processing' 
+                    - Local Edge Processing (EdgeX/AWS Greegrass Core/Azure IoT Core/GCP IoT Core)
+		    - Centralized Cloud Processing (AWS/Azure/GCP)
+      
+      --o 'Modular Plug & Play of AI/ML system' leveraging 
+      		   - Microservice (uS) governance framework' [API Gateway, uS Service Mesh, Automated uS Service Discovery & Registry, uS Service Config, uS service internal communication protocol etc]
+      		   - Containerization & CaaS (Docker, Kubernetes)
+     --o Optimized calculation frameworks (cuDF/ cuML)
       
      ```            
  
