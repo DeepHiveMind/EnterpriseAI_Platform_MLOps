@@ -15,7 +15,7 @@ This repository intends to offers
 - [INSPIRATION for MLOPS](#INSPIRATION_for_MLOPS)
 	- [JOURNEY IN AI MATURITY](#JOURNEY-IN-AI-MATURITY)
 	- [HIDDEN TECH DEBT IN REAL WORLD ML SYSTEM](#HIDDEN-TECH-DEBT-IN-REAL-WORLD-ML-SYSTEM)
-	- [State of Machine Learning Operations in Y2019](#State-of-Machine-Learning-Operations-in-Y2019)
+	- [STATE OF MACHINE LEARNING OPERATIONS IN Y2019](#STATE-OF-MACHINE-LEARNING-OPERATIONS-IN-Y2019)
 - [MLOPS Architecture](#MLOPS-Architecture)
 - [High level constructs of MLOPS](#High-level-constructs-of-MLOPS)
 - [Detail References to the Constructs and Tools of MLOPS](#Detail-References-to-the-Constructs-and-Tools-of-MLOPS)
@@ -23,7 +23,7 @@ This repository intends to offers
 
 - [Product Machine Learning System Y2019 A Video](#Product-Machine-Learning-System-Y2019-A-Video)
 
-## INSPIRATION for MLOPS
+# INSPIRATION for MLOPS
 
 Q. WHY DO WE NEED MLOPS?
 
@@ -50,7 +50,7 @@ Let us have a sneak peek into the Journey of any Org through various stages of A
 
 **[STAGE 1.] THE BEGINERS LUCK** 
 
-- A simple **workflow of 'Build/Prepare' --> 'Train' --> 'Evaluate'--> 'Deploy' --> 'UI' (a simple WebApp)** does relatively very well with **SMALL DATA SCIENCE PROJECTS/POC/MVP**.
+- A simple **workflow of 'Build/Prepare' --> 'Train' --> 'Evaluate'--> 'Deploy' --> 'UI' (a simple WebApp)** does relatively very well with *SMALL DATA SCIENCE PROJECTS/POC/MVP*.
        - Focus is on the deployment of the Model (accepted with success criteria), 
        - Enable the registry of its inference in Real time,
        - Enable a simple PWA UI for the Visualization.
@@ -109,7 +109,7 @@ _Courtsey Google NIPS 2015
 **MLOPS IS THE SILVER BULLET!**
 
 
-#### State of Machine Learning Operations in Y2019
+### STATE OF MACHINE LEARNING OPERATIONS IN Y2019
 
 Survey conducted by PipelineAI in July 2019: State of Machine learning Operations -
 <img src="images/Recent_Poll_PipelineAI_July2019_1.JPG" width="900" height="400" border="10"> 
@@ -229,7 +229,7 @@ Any **"Enterprise Data Science System" / "Enterprise AI Platform"** must intend 
       --o 'Data TRUST'      
    ``` 
 
-## MLOPS Architecture
+# MLOPS Architecture
 
 MLOPS Architecture from One of visionary AI platform with specialized service offering in MLOPS:
 <img src="images/FullMlopsNeuro.JPG" width="900" height="500" border="10">
@@ -238,7 +238,7 @@ Reference: [Neuomation AI Platform](https://neu.ro/)
 
 
 
-## Detail References to the Constructs and Tools of MLOPS
+# Detail References to the Constructs and Tools of MLOPS
 
 | | | | |
 |-|-|-|-|
@@ -248,7 +248,7 @@ Reference: [Neuomation AI Platform](https://neu.ro/)
 |[🔍 Explaining predictions & models](/README_Explaining%20Black%20Box%20Models.md) | [🔏 Privacy preserving ML](/README_Privacy%20Preserving%20Machine%20Learning.md) | [📜 Model & data versioning](/README_Model%20and%20Data%20Versioning.md)| [🧮 Optimized calculation frameworks](/README_Optimized%20calculation%20frameworks.md) |
 |[🤖 AutoML](/README_Neural%20Architecture%20Search.md)| [📡 Functions as a service](README_Function%20as%20a%20Service%20Frameworks.md) | [🔠 Industry-strength NLP](/README_Industrial%20Strength%20NLP.md) | [💰 Commercial Platforms](/README_Commercial%20Platforms.md) | 
 
-## MLOPS VS DATAOPS VS AIOPS VS PLATFORMOPS
+# MLOPS VS DATAOPS VS AIOPS VS PLATFORMOPS
 
 DevOps fits everywhere. Infact, DevOps dons multiple avataar in the broader perspective of Enterprise AI & Data landscape:  
 
@@ -264,7 +264,7 @@ DataOps is a collaborative data management practice focused on improving the com
 
 
 
-## Product Machine Learning System Y2019 A Video
+# Product Machine Learning System Y2019 A Video
 
 <table>
   <tr>
