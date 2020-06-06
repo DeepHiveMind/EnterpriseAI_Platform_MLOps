@@ -26,23 +26,29 @@ This repository intends to offers
 ## INSPIRATION for MLOPS
 
 Q. WHY DO WE NEED MLOPS?
-A. Three Pronged Answer  
-	- JOURNEY IN AI MATURITY {AS the Organizations advance in their AI Maturity journey, complexities start growing expoenentially}
-	- HIDDEN TECH DEBT IN REAL WORLD ML SYSTEM (by _Google NIPS 2015)
-	- STATE OF MACHINE LEANRNING OPERATIONS IN Y2019 {Survey conducted by PipelineAI in July 2019 on State of Machine learning Operations}
 
-Survey conducted by PipelineAI in July 2019: State of Machine learning Operations -
-<img src="images/Recent_Poll_PipelineAI_July2019_1.JPG" width="900" height="400" border="10"> 
+A. Three Pronged Answer 
+
+	- JOURNEY IN AI MATURITY 
+	         {AS the Organizations advance in their AI Maturity journey, complexities start growing expoenentially}
+	
+	- HIDDEN TECH DEBT IN REAL WORLD ML SYSTEM 
+	         {by _Google NIPS 2015}
+		 
+	- STATE OF MACHINE LEANRNING OPERATIONS IN Y2019 
+	         {Survey conducted by PipelineAI in July 2019 on State of Machine learning Operations}
+
+
  
-#### JOURNEY IN AI MATURITY
+### JOURNEY IN AI MATURITY
 
-- AS the Organizations advance in their AI Maturity journey, complexities start growing expoenentially.
+- ***AS the Organizations advance in their AI Maturity journey, complexities start growing expoenentially.***
 - ***SMALL DATA SCIENCE PROJECTS/DataScience POC/MVP* has lesser complexities, than the *ENTERPRISE DATA SCIENCE SYSTEM***.
 
 Let us have a sneak peek into the Journey of any Org through various stages of AI Maturity, and related complexities 
 "THE BEGINERS LUCK" (stage 1) --> "WHEN THE RUBBER HITS THE ROAD" (stage 2) --> "THE PROLIFERATION" (Stage 3)
 
-[STAGE 1.] **THE BEGINERS LUCK** 
+**[STAGE 1.] THE BEGINERS LUCK** 
 
 - A simple **workflow of 'Build/Prepare' --> 'Train' --> 'Evaluate'--> 'Deploy' --> 'UI' (a simple WebApp)** does relatively very well with **SMALL DATA SCIENCE PROJECTS/POC/MVP**.
        - Focus is on the deployment of the Model (accepted with success criteria), 
@@ -53,7 +59,7 @@ THEREFORE, the SIMPLE WORKFLOW which worked pretty well for 'SMALL DATA SCIENCE 
 
 
 
-[STAGE 2.] **WHEN THE RUBBER HITS THE ROAD**
+**[STAGE 2.] WHEN THE RUBBER HITS THE ROAD**
 
 As and when, the SMALL DATA SCIENCE PROJECTS/POC/MVPPOC/MVP hits the REAL WORLD SYSTEM, it starts to face new set of Challenges, 
 such as 
@@ -69,7 +75,7 @@ such as
 |<img src="images/Small_DataScience_Project.JPG" width="500" height="200" border="10">|<img src="images/mlops1.png" width="500" height="200" border="10">|
 | Workflow Job well done | Still lot missing in the Workflow :smiley:| 
 
-[STAGE 3.] **THE PROLIFERATION**
+**[STAGE 3.] THE PROLIFERATION**
 
 But, as the Data Science (DS) requirements, demand for DS productionization, multiple DS Teams grows, whole lot of new issues starts popping up in explonential manner for large **ENTERPRISE DATA SCIENCE SYSTEM**. Such as 
     - Increased complexities in flow of Data (One Centralized DataLake team, and multiple DS Team clamouring) 
@@ -81,7 +87,7 @@ But, as the Data Science (DS) requirements, demand for DS productionization, mul
     
 **MLOPS IS THE SILVER BULLET!**
     
-#### HIDDEN TECH DEBT IN REAL WORLD ML SYSTEM
+### HIDDEN TECH DEBT IN REAL WORLD ML SYSTEM
 
 <p align="center"> # HIDDEN TECH DEBT IN ML SYSTEM- NIPS/GOOGLE 2015</p> 
 
