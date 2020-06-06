@@ -13,40 +13,47 @@ This repository intends to offers
 **A Quick Rundown:**
 
 - [INSPIRATION for MLOPS](#INSPIRATION_for_MLOPS)
-- [State of Machine Learning Operations in Y2019](#State-of-Machine-Learning-Operations-in-Y2019)
+	- [JOURNEY IN AI MATURITY](#JOURNEY-IN-AI-MATURITY)
+	- [HIDDEN TECH DEBT IN REAL WORLD ML SYSTEM](#HIDDEN-TECH-DEBT-IN-REAL-WORLD-ML-SYSTEM)
+	- [State of Machine Learning Operations in Y2019](#State-of-Machine-Learning-Operations-in-Y2019)
 - [MLOPS Architecture](#MLOPS-Architecture)
 - [High level constructs of MLOPS](#High-level-constructs-of-MLOPS)
 - [Detail References to the Constructs and Tools of MLOPS](#Detail-References-to-the-Constructs-and-Tools-of-MLOPS)
 - [MLOPS VS DATAOPS VS AIOPS VS PLATFORMOPS](#MLOPS-VS-DATAOPS-VS-AIOPS-VS-PLATFORMOPS)
+
 - [Product Machine Learning System Y2019 A Video](#Product-Machine-Learning-System-Y2019-A-Video)
 
 ## INSPIRATION for MLOPS
 
-**WHY DO WE NEED MLOPS?**
+Q. WHY DO WE NEED MLOPS?
+A. Three Pronged Answer  
+	- JOURNEY IN AI MATURITY {AS the Organizations advance in their AI Maturity journey, complexities start growing expoenentially}
+	- HIDDEN TECH DEBT IN REAL WORLD ML SYSTEM (by _Google NIPS 2015)
+	- STATE OF MACHINE LEANRNING OPERATIONS IN Y2019 {Survey conducted by PipelineAI in July 2019 on State of Machine learning Operations}
 
-1. **SIMPLY PUT ACROSS**
+Survey conducted by PipelineAI in July 2019: State of Machine learning Operations -
+<img src="images/Recent_Poll_PipelineAI_July2019_1.JPG" width="900" height="400" border="10"> 
+ 
+#### JOURNEY IN AI MATURITY
 
-*SMALL DATA SCIENCE PROJECTS*/POC/MVP has lesser complexities, than *ENTERPRISE DATA SCIENCE SYSTEM*.
+- AS the Organizations advance in their AI Maturity journey, complexities start growing expoenentially.
+- ***SMALL DATA SCIENCE PROJECTS/DataScience POC/MVP* has lesser complexities, than the *ENTERPRISE DATA SCIENCE SYSTEM***.
 
-- A simple **workflow of 'Build/Prepare' --> 'Train' --> 'Evaluate'--> 'Deploy' --> 'UI' (a simple WebApp)** does relatively very well with **SMALL DATA SCIENCE PROJECTS**/POC/MVP.
-- But, as the Data Science(DS) requirements, productionization and, hence DS Teams grows, whole lot of new issues starts popping up in **ENTERPRISE DATA SCIENCE SYSTEM**. Such as 
-    - 'Increased complexities in flow of Data, 
-    - Data Science Tools proliferation (each siloed deptt would start using their own preferred DS tools, Serving Models become increasingly harder, 
-    - when stuff goes wrong it's hard to trace back, 
-    - Infrastructure needs, its governance starts growing rapidly
-    - & many More (See, whole lot of issues which is now being faced with Enterprise large Data Lakes)
+Let us have a sneak peek into the Journey of any Org through various stages of AI Maturity, and related complexities 
+"THE BEGINERS LUCK" (stage 1) --> "WHEN THE RUBBER HITS THE ROAD" (stage 2) --> "THE PROLIFERATION" (Stage 3)
+
+[STAGE 1.] **THE BEGINERS LUCK** 
+
+- A simple **workflow of 'Build/Prepare' --> 'Train' --> 'Evaluate'--> 'Deploy' --> 'UI' (a simple WebApp)** does relatively very well with **SMALL DATA SCIENCE PROJECTS/POC/MVP**.
+       - Focus is on the deployment of the Model (accepted with success criteria), 
+       - Enable the registry of its inference in Real time,
+       - Enable a simple PWA UI for the Visualization.
     
 THEREFORE, the SIMPLE WORKFLOW which worked pretty well for 'SMALL DATA SCIENCE PROJECTS' starts failing and crumbling under the complexities of 'ENTERPRISE DATA SCIENCE SYSTEM'.
 
-|**SMALL DATA SCIENCE PROJECTS**| **ENTERPRISE DATA SCIENCE SYSTEM**|
-| :---: | :---:|
-| Workflow | Workflow| 
-|<img src="images/Small_DataScience_Project.JPG" width="500" height="200" border="10">|<img src="images/mlops1.png" width="500" height="200" border="10">|
-| Workflow Job well done | Still lot missing in the Workflow :smiley:| 
 
 
-
-2. **WHEN THE RUBBER HITS THE ROAD**
+[STAGE 2.] **WHEN THE RUBBER HITS THE ROAD**
 
 As and when, the SMALL DATA SCIENCE PROJECTS/POC/MVPPOC/MVP hits the REAL WORLD SYSTEM, it starts to face new set of Challenges, 
 such as 
@@ -55,9 +62,26 @@ such as
 - **Biased**: Needs to Validate Trained ML Binary/ Service/ servable in any form for Bias detection Before Pushing 
 – **AI/ML Service Routing (If Broken)**: Need to A/B Test/ Multi Armed Bandit in Production 
 – **Security Vulnerability (If Hacked)**: Need to Train With Data Privacy (All your Data & other security is for a toss now as the Makert exposed AI Model has the essence of the underlying data.
-       
 
-3. **HIDDEN TECH DEBT IN REAL WORLD ML SYSTEM**
+|**SMALL/MID SIZE DATA SCIENCE PROJECTS**| **ENTERPRISE DATA SCIENCE SYSTEM**|
+| :---: | :---:|
+| Workflow | Workflow| 
+|<img src="images/Small_DataScience_Project.JPG" width="500" height="200" border="10">|<img src="images/mlops1.png" width="500" height="200" border="10">|
+| Workflow Job well done | Still lot missing in the Workflow :smiley:| 
+
+[STAGE 3.] **THE PROLIFERATION**
+
+But, as the Data Science (DS) requirements, demand for DS productionization, multiple DS Teams grows, whole lot of new issues starts popping up in explonential manner for large **ENTERPRISE DATA SCIENCE SYSTEM**. Such as 
+    - Increased complexities in flow of Data (One Centralized DataLake team, and multiple DS Team clamouring) 
+    - Data Science Tools proliferation (each siloed DS Team would start using their own preferred DS tools)
+    - Serving Models become increasingly harder (multiple DS Team, multiple DS Tools, multiple Serving requirements @)
+    - Infrastructure needs, its governance complexities starts growing rapidly (Mutiple SERVING requirements,Mutiple TRAINING requirements, Mutiple DATA requirements, Mutiple VISUALIZATION requirements etc @varied frequency, @varied technologies, @varied Infra)
+    - when stuff goes wrong it's hard to trace back, 
+    - & many More (See, whole lot of issues large Enterprise starts facing @exponential rate!!)
+    
+**MLOPS IS THE SILVER BULLET!**
+    
+#### HIDDEN TECH DEBT IN REAL WORLD ML SYSTEM
 
 <p align="center"> # HIDDEN TECH DEBT IN ML SYSTEM- NIPS/GOOGLE 2015</p> 
 
@@ -78,10 +102,14 @@ _Courtsey Google NIPS 2015
     
 **MLOPS IS THE SILVER BULLET!**
 
-## State of Machine Learning Operations in Y2019
+
+#### State of Machine Learning Operations in Y2019
 
 Survey conducted by PipelineAI in July 2019: State of Machine learning Operations -
 <img src="images/Recent_Poll_PipelineAI_July2019_1.JPG" width="900" height="400" border="10"> 
+
+**Custom MLOPS IS THE SILVER BULLET!**
+
 
 ## High level constructs of MLOPS
 
@@ -201,6 +229,7 @@ MLOPS Architecture from One of visionary AI platform with specialized service of
 <img src="images/FullMlopsNeuro.JPG" width="900" height="500" border="10">
 
 Reference: [Neuomation AI Platform](https://neu.ro/)
+
 
 
 ## Detail References to the Constructs and Tools of MLOPS
