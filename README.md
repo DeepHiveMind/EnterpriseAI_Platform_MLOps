@@ -118,13 +118,31 @@ Any **"Enterprise Data Science System" / "Enterprise AI Platform"** must intend 
 
 - **"Comprehensive AI Governances"** 
     ```
-     --o 'AI TRUST' - Explainable AI, Ethical AI, Fair AI, Feature Management & Stoarge, 'Model and Data Versioning',
+     --o 'AI TRUST' 
+     		- Explainable AI, 
+		- Ethical AI, 
+		- Fair AI, 
+		- Feature Management & Stoarge, 
+		- Dataset processing transformation persistence,
+		- Model and Data Versioning,
      
-     --o 'AI Collaboration, Sharing & Exchange' - AI/ML APIs Authenticated Sharing, Fature Set Authenticated Sharing, Model Binaries Authenticated Sharing, Notebook /Model Code Authenticated Sharing,
+     --o 'AI Collaboration, Sharing & Exchange' 
+                Authenticated, Authroized and Logging based Market place for sharing & exchange of MODELS and Model related artefacts
+		- AI/ML APIs, 
+		- Fature Set, 
+		- Training metrics,
+		- Model Binaries, 
+		- Notebook /Model Code,
      
-     --o 'AI Security' - Privacy Preserving Machine Learning, AI/ML API Security (Authentican & Authorization)
+     --o 'AI Security' 
+     		- Privacy Preserving Machine Learning, 
+		- AI/ML API Security (Authentican & Authorization)
      
-     --o 'AI Scalability' - Autoamted Load Balancing, Service Routing, AutoScaling, MultiZone Replication, Caching
+     --o 'AI Scalability' 
+      		- Autoamted Load Balancing, 
+		- Service Routing, AutoScaling, 
+		- MultiZone Replication, 
+		- Caching
      
      --o 'AI Inference Model Update/ Roll out' Mechanism 
             	- Blue Green Deployment
