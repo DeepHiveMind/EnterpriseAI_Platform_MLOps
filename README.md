@@ -16,11 +16,11 @@ This repository intends to offers
 	- [JOURNEY IN AI MATURITY](#JOURNEY-IN-AI-MATURITY)
 	- [HIDDEN TECH DEBT IN REAL WORLD ML SYSTEM](#HIDDEN-TECH-DEBT-IN-REAL-WORLD-ML-SYSTEM)
 	- [STATE OF MACHINE LEARNING OPERATIONS IN Y2019](#STATE-OF-MACHINE-LEARNING-OPERATIONS-IN-Y2019)
-- [MLOPS Architecture](#MLOPS-Architecture)
-- [High level constructs of MLOPS](#High-level-constructs-of-MLOPS)
+- [MLOPS Reference Architecture](#MLOPS-Reference-Architecture)
+- [High level constructs of MLOPS](#High-level-constructs-of-Real-World-MLOPS)
 - [Detail References to the Constructs and Tools of MLOPS](#Detail-References-to-the-Constructs-and-Tools-of-MLOPS)
+- [MLOPS Architecture by AWS AZURE GCP FOSS](#MLOPS-Architecture-by-AWS-AZURE-GCP-FOSS)
 - [MLOPS VS DATAOPS VS AIOPS VS PLATFORMOPS](#MLOPS-VS-DATAOPS-VS-AIOPS-VS-PLATFORMOPS)
-
 - [Product Machine Learning System Y2019 A Video](#Product-Machine-Learning-System-Y2019-A-Video)
 
 # INSPIRATION for MLOPS
@@ -50,10 +50,13 @@ Let us have a sneak peek into the Journey of any Org through various stages of A
 
 **[STAGE 1.] THE BEGINERS LUCK** 
 
-- A simple **workflow of 'Build/Prepare' --> 'Train' --> 'Evaluate'--> 'Deploy' --> 'UI' (a simple WebApp)** does relatively very well with *SMALL DATA SCIENCE PROJECTS/POC/MVP*.
-       - Focus is on the deployment of the Model (accepted with success criteria), 
-       - Enable the registry of its inference in Real time,
-       - Enable a simple PWA UI for the Visualization.
+A *Simple ML workflow* does relatively very well with *SMALL DATA SCIENCE PROJECTS/POC/MVP*
+``` 'Build/Prepare' --> 'Train' --> 'Evaluate'--> 'Deploy' --> 'UI' (a simple WebApp) ```
+
+As the focus is 
+   - Focus is on the deployment of the Model (accepted with success criteria), 
+   - Enable the registry of its inference in Real time,
+   - Enable a simple PWA UI for the Visualization.
     
 THEREFORE, the SIMPLE WORKFLOW which worked pretty well for 'SMALL DATA SCIENCE PROJECTS' starts failing and crumbling under the complexities of 'ENTERPRISE DATA SCIENCE SYSTEM'.
 
@@ -61,8 +64,8 @@ THEREFORE, the SIMPLE WORKFLOW which worked pretty well for 'SMALL DATA SCIENCE 
 
 **[STAGE 2.] WHEN THE RUBBER HITS THE ROAD**
 
-As and when, the SMALL DATA SCIENCE PROJECTS/POC/MVPPOC/MVP hits the REAL WORLD SYSTEM, it starts to face new set of Challenges, 
-such as 
+As and when, the SMALL DATA SCIENCE PROJECTS/POC/MVPPOC/MVP hits the REAL WORLD SYSTEM, it starts facing new set of Challenges, and focus shifts to following
+
 - **Need to Re-Train**: After Pushing Your Model to Production, Your Model is already Out of Date. Google updates its SEO model/algorithm  on average 500 times per year. [Ref](https://www.seoblog.com/google-penguin-panda-refresh/#:~:text=Of%20course%2C%20these%20are%20not,average%20500%20times%20per%20year.)
 
 - **Slow**: Need to Quantize and Speed Up Predictions
@@ -73,6 +76,9 @@ such as
 
 – **Security Vulnerability (If Hacked)**: Need to Train With Data Privacy (All your Data & other security is for a toss now as the Makert exposed AI Model has the essence of the underlying data.
 
+A *Slightly Matured Workflow* does the work - 
+ ```'Build/Prepare' --> 'Train' --> 'Evaluate'--> 'Deploy' --> 'UI' (a PWA WebApp)** --> 'Monitor' --> Retraining pathway ```
+
 |**SMALL/MID SIZE DATA SCIENCE PROJECTS**| **ENTERPRISE DATA SCIENCE SYSTEM**|
 | :---: | :---:|
 | Workflow | Workflow| 
@@ -82,13 +88,16 @@ such as
 **[STAGE 3.] THE PROLIFERATION**
 
 But, as the Data Science (DS) requirements, demand for DS productionization, multiple DS Teams grows, whole lot of new issues starts popping up in explonential manner for large **ENTERPRISE DATA SCIENCE SYSTEM**. Such as 
-    - Increased complexities in flow of Data (One Centralized DataLake team, and multiple DS Team clamouring) 
-    - Data Science Tools proliferation (each siloed DS Team would start using their own preferred DS tools)
-    - Serving Models become increasingly harder (multiple DS Team, multiple DS Tools, multiple Serving requirements @)
-    - Infrastructure needs, its governance complexities starts growing rapidly (Mutiple SERVING requirements,Mutiple TRAINING requirements, Mutiple DATA requirements, Mutiple VISUALIZATION requirements etc @varied frequency, @varied technologies, @varied Infra)
-    - when stuff goes wrong it's hard to trace back, 
-    - & many More (See, whole lot of issues large Enterprise starts facing @exponential rate!!)
-    
+  
+  - Increased complexities in flow of Data (One Centralized DataLake team, and multiple DS Team clamouring) 
+  - Data Science Tools proliferation (each siloed DS Team would start using their own preferred DS tools)
+  - Serving Models become increasingly harder (multiple DS Team, multiple DS Tools, multiple Serving requirements @)
+  - Infrastructure needs, its governance complexities starts growing rapidly (Mutiple SERVING requirements,Mutiple TRAINING requirements, Mutiple DATA requirements, Mutiple VISUALIZATION requirements etc @varied frequency, @varied technologies, @varied Infra)
+  - when stuff goes wrong it's hard to trace back, 
+  - & many More (See, whole lot of issues large Enterprise starts facing @exponential rate!!)
+
+A Fully Matured Custom MLOPS workflow is required to handle challenges of large *ENTERPRISE DATA SCIENCE SYSTEM*.
+
 **MLOPS IS THE SILVER BULLET!**
     
 ### HIDDEN TECH DEBT IN REAL WORLD ML SYSTEM
@@ -121,7 +130,7 @@ Survey conducted by PipelineAI in July 2019: State of Machine learning Operation
 **Custom MLOPS IS THE SILVER BULLET!**
 
 
-## High level constructs of MLOPS
+## High level constructs of Real World MLOPS
 
 Any **"Enterprise Data Science System" / "Enterprise AI Platform"** must intend to stich/chain together at least the essential & high level constructs of MLOPS under its hood. Genrally "Enterprise AI Platform", such as H20.ai/Alteryx/HopsML/PipelineAI etc are powered by **Custom MLOPS** with the objective to *attempt to offer* following key high level AI/ML constructs:
    
@@ -233,12 +242,12 @@ Any **"Enterprise Data Science System" / "Enterprise AI Platform"** must intend 
       --o 'Data TRUST'      
    ``` 
 
-# MLOPS Architecture
+# MLOPS Reference Architecture
 
-MLOPS Architecture from One of visionary AI platform with specialized service offering in MLOPS:
+MLOPS Reference Architecture from One of visionary AI platform with specialized service offering in MLOPS:
 <img src="images/FullMlopsNeuro.JPG" width="900" height="500" border="10">
 
-Reference: [Neuomation AI Platform](https://neu.ro/)
+Reference: [Neuomation AI Platform](https://neu.ro/) | Neuromation has a specialized niche Offering in Remote MLOPS.
 
 
 
@@ -251,6 +260,10 @@ Reference: [Neuomation AI Platform](https://neu.ro/)
 | [🗺️ ML Training Computation distribution]() | [📊 ML Training & Indutrial Visualisation frameworks](/README_ML%20Computation%20load%20distribution%20frameworks.md) |[⚔ Adversarial Robustness](README_Adversarial%20Robustness%20Libraries.md) |[📥 Model serialisation](/README_Model%20serialisation%20formats.md) |
 |[🔍 Explaining predictions & models](/README_Explaining%20Black%20Box%20Models.md) | [🔏 Privacy preserving ML](/README_Privacy%20Preserving%20Machine%20Learning.md) | [📜 Model & data versioning](/README_Model%20and%20Data%20Versioning.md)| [🧮 Optimized calculation frameworks](/README_Optimized%20calculation%20frameworks.md) |
 |[🤖 AutoML](/README_Neural%20Architecture%20Search.md)| [📡 Functions as a service](README_Function%20as%20a%20Service%20Frameworks.md) | [🔠 Industry-strength NLP](/README_Industrial%20Strength%20NLP.md) | [💰 Commercial Platforms](/README_Commercial%20Platforms.md) | 
+
+
+# MLOPS Architecture by AWS AZURE GCP FOSS
+
 
 # MLOPS VS DATAOPS VS AIOPS VS PLATFORMOPS
 
