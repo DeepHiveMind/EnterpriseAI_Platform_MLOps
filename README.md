@@ -19,7 +19,7 @@ This repository intends to offers
 - [MLOPS Reference Architecture](#MLOPS-Reference-Architecture)
 - [High level constructs of MLOPS](#High-level-constructs-of-Real-World-MLOPS)
 - [Detail References to the Constructs and Tools of MLOPS](#Detail-References-to-the-Constructs-and-Tools-of-MLOPS)
-- [MLOPS Architecture by AWS AZURE GCP FOSS](#MLOPS-Architecture-by-AWS-AZURE-GCP-FOSS)
+- [MLOPS Architecture based on KUBEFLOW](#MLOPS-Architecture-based-on-KUBEFLOW)
 - [MLOPS VS DATAOPS VS AIOPS VS PLATFORMOPS](#MLOPS-VS-DATAOPS-VS-AIOPS-VS-PLATFORMOPS)
 - [Product Machine Learning System Y2019 A Video](#Product-Machine-Learning-System-Y2019-A-Video)
 
