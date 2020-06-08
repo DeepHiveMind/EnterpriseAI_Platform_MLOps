@@ -72,9 +72,9 @@ As and when, the SMALL DATA SCIENCE PROJECTS/POC/MVPPOC/MVP hits the REAL WORLD 
 
 - **Biased**: Needs to Validate Trained ML Binary/ Service/ servable in any form for Bias detection Before Pushing 
 
-– **AI/ML Service Routing (If Broken)**: Need to A/B Test/ Multi Armed Bandit in Production 
+- **AI/ML Service Routing (If Broken)**: Need to A/B Test/ Multi Armed Bandit in Production 
 
-– **Security Vulnerability (If Hacked)**: Need to Train With Data Privacy (All your Data & other security is for a toss now as the Makert exposed AI Model has the essence of the underlying data.
+- **Security Vulnerability (If Hacked)**: Need to Train With Data Privacy (All your Data & other security is for a toss now as the Makert exposed AI Model has the essence of the underlying data.
 
 A *Slightly Matured Workflow* does the work - 
  ```'Build/Prepare' --> 'Train' --> 'Evaluate'--> 'Deploy' --> 'UI' (a PWA WebApp)** --> 'Monitor' --> Retraining pathway ```
