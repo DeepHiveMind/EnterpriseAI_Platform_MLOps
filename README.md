@@ -266,13 +266,20 @@ Reference: [Neuomation AI Platform](https://neu.ro/) | Neuromation has a special
 
 ### MLOPS Architecture based on KUBEFLOW
 
-High level conceptual MLOPS solutions orchasterated by KUBEFLOW  (Muliple technology blocks for Enterprise level MLOPS):
+- High level conceptual MLOPS solutions orchasterated by KUBEFLOW  (Muliple technology blocks for Enterprise level MLOPS):
 
 <img src="https://miro.medium.com/max/4662/1*6Dxn6LEMgZM9_oj3DBa3Wg.png" width="900" height="500" border="10">
 													    
-Serverless MLFLOW by amalgamation of KUBEFLOW & KNative:
+- Serverless MLFLOW by amalgamation of KUBEFLOW & KNative:
 
 <img src="https://miro.medium.com/max/3200/0*TGNBehHc1-SNvv59" width="900" height="500" border="10">
+
+
+
+- Runtime TRAINING Visulization of Deep NN Models supported by Kubeflow leveraging TensorBoard: A Visual of TensorBoard for TRAINING Visualization:
+
+<img src="https://www.tensorflow.org/tensorboard/images/tensorboard.gif" width="900" height="500" border="10">
+
 
 
 # MLOPS VS DATAOPS VS AIOPS VS PLATFORMOPS
