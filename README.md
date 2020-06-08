@@ -262,7 +262,17 @@ Reference: [Neuomation AI Platform](https://neu.ro/) | Neuromation has a special
 |[🤖 AutoML](/README_Neural%20Architecture%20Search.md)| [📡 Functions as a service](README_Function%20as%20a%20Service%20Frameworks.md) | [🔠 Industry-strength NLP](/README_Industrial%20Strength%20NLP.md) | [💰 Commercial Platforms](/README_Commercial%20Platforms.md) | 
 
 
-# MLOPS Architecture by AWS AZURE GCP FOSS
+# MLOPS Architecture by FOSS
+
+### MLOPS Architecture based on KUBEFLOW
+
+High level conceptual MLOPS solutions orchasterated by KUBEFLOW  (Muliple technology blocks for Enterprise level MLOPS):
+
+<img src="https://miro.medium.com/max/4662/1*6Dxn6LEMgZM9_oj3DBa3Wg.png" width="900" height="500" border="10">
+													    
+Serverless MLFLOW by amalgamation of KUBEFLOW & KNative:
+
+<img src="https://miro.medium.com/max/3200/0*TGNBehHc1-SNvv59" width="900" height="500" border="10">
 
 
 # MLOPS VS DATAOPS VS AIOPS VS PLATFORMOPS
