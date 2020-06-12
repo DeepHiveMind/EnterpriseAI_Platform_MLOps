@@ -9,10 +9,11 @@ This repository intends to offers
     - Explainablility of Black Box Models (a pillar of AI Trust)
     - **Ethical AI (a pillar of AI Trust)** with adequate deatiling around ```Ethical AI Frameworks, Codes of Ethics, Guidelines, Regulations``` et al. [Ethical AI](/README_Ethical_AI.md).
 
-
+***
 **A Quick Rundown:**
 
 - [INSPIRATION for MLOPS](#INSPIRATION_for_MLOPS)
+     - [WHY DO WE NEED MLOPS?](#WHY-DO-WE-NEED-MLOPS)
 	- [JOURNEY IN AI MATURITY](#JOURNEY-IN-AI-MATURITY)
 	- [HIDDEN TECH DEBT IN REAL WORLD ML SYSTEM](#HIDDEN-TECH-DEBT-IN-REAL-WORLD-ML-SYSTEM)
 	- [STATE OF MACHINE LEARNING OPERATIONS IN Y2019](#STATE-OF-MACHINE-LEARNING-OPERATIONS-IN-Y2019)
@@ -22,11 +23,11 @@ This repository intends to offers
 - [MLOPS Architecture based on KUBEFLOW](#MLOPS-Architecture-based-on-KUBEFLOW)
 - [MLOPS VS DATAOPS VS AIOPS VS PLATFORMOPS](#MLOPS-VS-DATAOPS-VS-AIOPS-VS-PLATFORMOPS)
 - [Product Machine Learning System Y2019 A Video](#Product-Machine-Learning-System-Y2019-A-Video)
+***
 
 # INSPIRATION for MLOPS
 
-***
-Q. **WHY DO WE NEED MLOPS?**
+## WHY DO WE NEED MLOPS**
 
 A. Three Pronged Answer 
 
@@ -38,8 +39,8 @@ A. Three Pronged Answer
 		 
 	- STATE OF MACHINE LEANRNING OPERATIONS IN Y2019 
 	         {Survey conducted by PipelineAI in July 2019 on State of Machine learning Operations}
-
-But, before we resort to a deep dive into these aforementioned 3 PRONGED answers, Let us have a sneak peek into couple of the interesting suerveys conducted - 
+***
+But, before we resort to a deep dive into these aforementioned 3 PRONGED answers, Let us have a sneak peek into couple of the *interesting suerveys* conducted - 
 
 - "Only 20% of ML Models in the enterprise making into the production environments"
     _ [from 3073 AI Aware CXO-level executive surveyed](https://www.activestate.com/wp-content/uploads/2018/10/webinar-slides-mlops.pdf) 
@@ -48,8 +49,6 @@ But, before we resort to a deep dive into these aforementioned 3 PRONGED answers
     _ [Ref Source: The Linux foundation CD.FONDATION](https://cd.foundation/blog/2020/02/11/announcing-the-cd-foundation-mlops-sig/)
    
 - [The State of Affairs in MACHINE LEARNING OPERATIONS- Y'2019 Survey](#STATE-OF-MACHINE-LEARNING-OPERATIONS-IN-Y2019)
-
-
 
 ***
 
