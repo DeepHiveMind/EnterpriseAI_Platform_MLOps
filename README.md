@@ -45,11 +45,15 @@ A. Three Pronged Answer
 - ***AS the Organizations advance in their AI Maturity journey, complexities start growing expoenentially.***
 - ***SMALL DATA SCIENCE PROJECTS/DataScience POC/MVP* has lesser complexities, than the *ENTERPRISE DATA SCIENCE SYSTEM***.
 
-Let us have a sneak peek into the Journey of any Org through various stages of AI Maturity, and related complexities 
-"THE BEGINERS LUCK" (stage 1) --> 
-      "WHEN THE RUBBER HITS THE ROAD" (stage 2) 
-                   --> "THE PROLIFERATION" (Stage 3)
 
+Let us have a sneak peek into the Journey of any Org through various stages of AI Maturity, and related complexities
+```
+"THE BEGINERS LUCK" (stage 1)
+
+         -->  "WHEN THE RUBBER HITS THE ROAD" (stage 2) 
+	 
+                   --> "THE PROLIFERATION" (Stage 3)
+```
 **[STAGE 1.] THE BEGINERS LUCK** 
 
 A *Simple ML workflow* does relatively very well with *SMALL DATA SCIENCE PROJECTS/POC/MVP*
@@ -147,27 +151,37 @@ Any **"Enterprise Data Science System" / "Enterprise AI Platform"** must intend 
 - **"AI/ML Pipeline"** 
     ```
      -->  'Build/Prepare' - A Notebook/ Visual AI Studio with dockerized support for underlying
-     		- AI/ML Libraries-TF/PyTorch/SparkML/XGboost/,
+     		
+		- AI/ML Libraries (e.g., TF/PyTorch/SparkML/XGboost/0
 		- EDA libraries, 
 		- Pre-processing libraries, such as 
 			- Data Augmentation Libraries, 
 			- Adversarial Robustness Libraries,
 			- Translational/Angular variance et al.  
+			
      --> 'Train' - Computation load distribution frameworks for '
-     		- Distributed Training (using Horovod or custom template)
+     		
+		- Distributed Training (e.g., using Horovod or custom template)
 		- Standalone tarining
-		- with support for real time Training Visualization(TensorBoard/VisualDL)
+		- with support for real time Training Visualization(e.g., TensorBoard/VisualDL)
 		- on accelerated neural network hardware NVIDIA GPU/Google TPU/CPU with the leverage of NVIDIA GPU-accelerated libraries (CUDA, CuDNN) 
+		
      --> 'Evaluate'
-     --> 'Model Serialization & Quantization' (Using TF-Serving, ONNX Runtime, Seldon Core et al)
+     
+     --> 'Model Serialization & Quantization' (e.g.,Using TF-Serving, ONNX Runtime, Seldon Core et al)
+     
      --> 'Deploy' 
                 - AI-as-a-Service -RESTful/gRPC API, or, 
 		- Binary Servables, or, 
 		- Edge deployment,
 		- Mobile deployment
-     --> 'AI Inference Service Routing' ('Service Mesh' like Istio)
+		
+     --> 'AI Inference Service Routing' (e.g.,'Service Mesh' like Istio)
+     
      --> 'Monitor' (Data drift & Concept drift with Alert) 
-     --> 'Automated Re-training pathway' (Airflow)
+     
+     --> 'Automated Re-training pathway' (e.g., Airflow, MLFlow)
+     
      --> 'User Interface' (PWA/ MobileApp / Web App)
     ```
     
