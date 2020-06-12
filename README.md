@@ -25,7 +25,8 @@ This repository intends to offers
 
 # INSPIRATION for MLOPS
 
-Q. WHY DO WE NEED MLOPS?
+***
+Q. **WHY DO WE NEED MLOPS?**
 
 A. Three Pronged Answer 
 
@@ -38,7 +39,19 @@ A. Three Pronged Answer
 	- STATE OF MACHINE LEANRNING OPERATIONS IN Y2019 
 	         {Survey conducted by PipelineAI in July 2019 on State of Machine learning Operations}
 
+But, before we resort to a deep dive into these aforementioned 3 PRONGED answers, Let us have a sneak peek into couple of the interesting suerveys conducted - 
 
+- "Only 20% of ML Models in the enterprise making into the production environments"
+    _ [from 3073 AI Aware CXO-level executive surveyed](https://www.activestate.com/wp-content/uploads/2018/10/webinar-slides-mlops.pdf) 
+    
+- The Story of Enterprise Machine Learning: "It took me 3 weeks to develop the model. It has been > 11 months, and it's still not deployed."
+    _ [Ref Source: The Linux foundation CD.FONDATION](https://cd.foundation/blog/2020/02/11/announcing-the-cd-foundation-mlops-sig/)
+   
+
+
+
+
+***
  
 ### JOURNEY IN AI MATURITY
 
@@ -93,14 +106,36 @@ A *Slightly Matured Workflow* does the work -
 
 **[STAGE 3.] THE PROLIFERATION**
 
-But, as the Data Science (DS) requirements, demand for DS productionization, multiple DS Teams grows, whole lot of new issues starts popping up in explonential manner for large **ENTERPRISE DATA SCIENCE SYSTEM**. Such as 
+But, as the Data Science (DS) requirements, demand for DS productionization, multiple DS Teams grows, whole lot of new issues starts popping up in explonential manner for large **ENTERPRISE DATA SCIENCE SYSTEM**. Such as,
+
+- Heterogeneity and Scale PROLIFERATION
+     - Possibly differing engines proliferation (Spark, TensorFlow, Caffe, PyTorch, Sci-kitLearn, etc.). Multiple siloed DS Team would start using their own preferred DS tools.
+     - Different languages proliferation (Python, Java, Scala, R ..)
+     - Different Inference vs Training engines
+		- Training can be frequently batch
+		- Inference (Prediction, Model Serving) can be REST endpoint/custom code, streaming engine, micro-batch, etc.
+     - Feature manipulation done at training needs to be replicated (or factored in) at inference 
+     - Each engine presents its own scale opportunities/issues
   
-  - Increased complexities in flow of Data (One Centralized DataLake team, and multiple DS Team clamouring) 
-  - Data Science Tools proliferation (each siloed DS Team would start using their own preferred DS tools)
-  - Serving Models become increasingly harder (multiple DS Team, multiple DS Tools, multiple Serving requirements @)
-  - Infrastructure needs, its governance complexities starts growing rapidly (Mutiple SERVING requirements,Mutiple TRAINING requirements, Mutiple DATA requirements, Mutiple VISUALIZATION requirements etc @varied frequency, @varied technologies, @varied Infra)
-  - when stuff goes wrong it's hard to trace back, 
-  - & many More (See, whole lot of issues large Enterprise starts facing @exponential rate!!)
+- Increased complexities in flow of Data (One Centralized DataLake team, and multiple DS Team clamouring) 
+  
+- Serving Models become increasingly harder (multiple DS Team, multiple DS Tools, multiple Serving requirements @)
+ 
+- Infrastructure needs, its governance complexities starts growing rapidly 
+ 	- Mutiple SERVING requirements, 
+	- Mutiple TRAINING requirements, 
+	- Mutiple DATA processing requirements, 
+	- Mutiple VISUALIZATION requirements etc 
+	*@varied frequency, @varied technologies, @varied Infra types**
+ 
+- when stuff goes wrong it's hard to trace back, 
+
+- Compliance, Regulations…
+	- Model Risk Management in Financial Services
+	- GDPR on Reproducing and Explaining ML Decisions
+	- Fairness Monitoring
+
+- & many More (See, whole lot of issues large Enterprise starts facing @exponential rate!!)
 
 A Fully Matured Custom MLOPS workflow is required to handle challenges of large *ENTERPRISE DATA SCIENCE SYSTEM*.
 
