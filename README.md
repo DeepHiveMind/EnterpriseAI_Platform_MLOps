@@ -183,7 +183,8 @@ Any **"Enterprise Data Science System" / "Enterprise AI Platform"** must intend 
 		- [Automated ML](#Automated-ML)
 		- [Comprehensive AI Governance](#Comprehensive-AI-Governance)
 		- [ML Operation COST Optimization SERVERLESS MLOPS](#ML-Operation-COST-Optimization-SERVERLESS-MLOPS)
-		- [Data & AI CI/CD Operations](#Data-&-AI-CI/CD-Operations)
+		- [Data and AI CI CD Operations](#Data-and-AI-CI-CD-Operations)
+		- [Comprehensive Data Operations DataOps](#Comprehensive-Data-Operations-DataOps)
 
 #### AI ML Dataset Annotation
     ```
@@ -193,7 +194,7 @@ Any **"Enterprise Data Science System" / "Enterprise AI Platform"** must intend 
      --o 'Ontology/Knowledge Graph Annotation framework' (Apache Jena)
      ```
           
-#### AI/ML Pipeline 
+#### AI ML Pipeline 
     ```
      -->  'Build/Prepare' - A Notebook/ Visual AI Studio with dockerized support for underlying
      		- AI/ML Libraries (e.g., TF/PyTorch/SparkML/XGboost/0
@@ -291,7 +292,7 @@ Any **"Enterprise Data Science System" / "Enterprise AI Platform"** must intend 
       
      ```            
  
-#### Data & AI CI/CD Operations 
+#### Data and AI CI CD Operations 
      ```
      o 'REQUIREMENT & AGILE COLLABORATION TOOLS' (Jira/ Confluence)
      o 'SCM TOOLS (GIT - GitHub/GitLab)
@@ -306,8 +307,8 @@ Any **"Enterprise Data Science System" / "Enterprise AI Platform"** must intend 
      o ''CD PIPELINE/FRAMEWORK- 2' Containerized & Container orachasteration by Container-as-a-Service ' (Containerization - Docker, CaaS -Kubernetes, IaC - Terraform) 
       ```       
  
- 
- - **"Comprehensive Data Operations DataOps"** 
+
+#### Comprehensive Data Operations DataOps 
   ```
       --o 'Data pipelines & ETL'
       --o 'Data Stream Processing' 
