@@ -46,7 +46,9 @@ A. Three Pronged Answer
 - ***SMALL DATA SCIENCE PROJECTS/DataScience POC/MVP* has lesser complexities, than the *ENTERPRISE DATA SCIENCE SYSTEM***.
 
 Let us have a sneak peek into the Journey of any Org through various stages of AI Maturity, and related complexities 
-"THE BEGINERS LUCK" (stage 1) --> "WHEN THE RUBBER HITS THE ROAD" (stage 2) --> "THE PROLIFERATION" (Stage 3)
+"THE BEGINERS LUCK" (stage 1) --> 
+      "WHEN THE RUBBER HITS THE ROAD" (stage 2) 
+                   --> "THE PROLIFERATION" (Stage 3)
 
 **[STAGE 1.] THE BEGINERS LUCK** 
 
