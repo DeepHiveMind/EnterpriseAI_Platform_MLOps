@@ -151,8 +151,7 @@ Any **"Enterprise Data Science System" / "Enterprise AI Platform"** must intend 
 - **"AI/ML Pipeline"** 
     ```
      -->  'Build/Prepare' - A Notebook/ Visual AI Studio with dockerized support for underlying
-     		
-		- AI/ML Libraries (e.g., TF/PyTorch/SparkML/XGboost/0
+     		- AI/ML Libraries (e.g., TF/PyTorch/SparkML/XGboost/0
 		- EDA libraries, 
 		- Pre-processing libraries, such as 
 			- Data Augmentation Libraries, 
@@ -229,7 +228,7 @@ Any **"Enterprise Data Science System" / "Enterprise AI Platform"** must intend 
       
     ```
 
-- **"ML Operation COST Optimization"** 
+- **ML Operation COST Optimization/ "Serverless MLOPS"** 
      ```
  
       --o 'Serverless Framework' 
