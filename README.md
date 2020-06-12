@@ -178,10 +178,14 @@ Survey conducted by PipelineAI in July 2019: State of Machine learning Operation
 # High level constructs of Real World MLOPS
 
 Any **"Enterprise Data Science System" / "Enterprise AI Platform"** must intend to stich/chain together at least the essential & high level constructs of MLOPS under its hood. Genrally "Enterprise AI Platform", such as H20.ai/Alteryx/HopsML/PipelineAI etc are powered by **Custom MLOPS** with the objective to *attempt to offer* following key high level AI/ML constructs:
-		- [AI/ML Dataset Annotation](#AI-/-ML-Dataset-Annotation)
-		- [AI/ML Pipeline](#AI-/-ML-Pipeline)
+		- [AI ML Dataset Annotation](#AI-ML-Dataset-Annotation)
+		- [AI ML Pipeline](#AI/ML-Pipeline)
+		- [Automated ML](#Automated-ML)
+		- [Comprehensive AI Governance](#Comprehensive-AI-Governance)
+		- [ML Operation COST Optimization SERVERLESS MLOPS](#ML-Operation-COST-Optimization-SERVERLESS-MLOPS)
+		- [Data & AI CI/CD Operations](#Data-&-AI-CI/CD-Operations)
 
-#### AI/ML Dataset Annotation
+#### AI ML Dataset Annotation
     ```
      --o 'Image Annotation framework' (VoTT, LabelImg, VIA ) 
      --o 'NLP/ Text Annotation framework' (spacy, explosion.ai,)
@@ -225,7 +229,7 @@ Any **"Enterprise Data Science System" / "Enterprise AI Platform"** must intend 
      --> 'User Interface' (PWA/ MobileApp / Web App)
     ```
     
-- **"Automated ML"** 
+#### Automated ML 
     ```
       'HPO' - Hyper Parameter Optimization,
       'Randmoized/Grid Serach',
@@ -233,7 +237,7 @@ Any **"Enterprise Data Science System" / "Enterprise AI Platform"** must intend 
       'AutoML'         
     ```
 
-- **"Comprehensive AI Governances"** 
+#### Comprehensive AI Governance
     ```
      --o 'AI TRUST' 
      		- Explainable AI, 
@@ -269,7 +273,7 @@ Any **"Enterprise Data Science System" / "Enterprise AI Platform"** must intend 
       
     ```
 
-- **ML Operation COST Optimization/ "Serverless MLOPS"** 
+#### ML Operation COST Optimization SERVERLESS MLOPS
      ```
  
       --o 'Serverless Framework' 
@@ -287,7 +291,7 @@ Any **"Enterprise Data Science System" / "Enterprise AI Platform"** must intend 
       
      ```            
  
- - **"Data & AI CI/CD Operations "** 
+#### Data & AI CI/CD Operations 
      ```
      o 'REQUIREMENT & AGILE COLLABORATION TOOLS' (Jira/ Confluence)
      o 'SCM TOOLS (GIT - GitHub/GitLab)
