@@ -178,8 +178,10 @@ Survey conducted by PipelineAI in July 2019: State of Machine learning Operation
 # High level constructs of Real World MLOPS
 
 Any **"Enterprise Data Science System" / "Enterprise AI Platform"** must intend to stich/chain together at least the essential & high level constructs of MLOPS under its hood. Genrally "Enterprise AI Platform", such as H20.ai/Alteryx/HopsML/PipelineAI etc are powered by **Custom MLOPS** with the objective to *attempt to offer* following key high level AI/ML constructs:
-   
-- **"AI/ML Dataset Annotation"** 
+		- [AI/ML Dataset Annotation](#AI-/-ML-Dataset-Annotation)
+		- [AI/ML Pipeline](#AI-/-ML-Pipeline)
+
+#### AI/ML Dataset Annotation
     ```
      --o 'Image Annotation framework' (VoTT, LabelImg, VIA ) 
      --o 'NLP/ Text Annotation framework' (spacy, explosion.ai,)
@@ -187,7 +189,7 @@ Any **"Enterprise Data Science System" / "Enterprise AI Platform"** must intend 
      --o 'Ontology/Knowledge Graph Annotation framework' (Apache Jena)
      ```
           
-- **"AI/ML Pipeline"** 
+#### AI/ML Pipeline 
     ```
      -->  'Build/Prepare' - A Notebook/ Visual AI Studio with dockerized support for underlying
      		- AI/ML Libraries (e.g., TF/PyTorch/SparkML/XGboost/0
