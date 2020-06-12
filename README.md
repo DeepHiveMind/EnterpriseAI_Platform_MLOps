@@ -144,11 +144,25 @@ Any **"Enterprise Data Science System" / "Enterprise AI Platform"** must intend 
           
 - **"AI/ML Pipeline"** 
     ```
-     --o  AI/ML Model 'Build/Prepare' (Notebook/ Visual AI Studio with dockerized support to AI/ML Libraries-TF/PyTorch/SparkML/XGboost/,  EDA libraries, Pre-processing libraries, Data Augmentation Libraries, Adversarial Robustness Libraries) 
-     --> 'Train' (Computation load distribution frameworks for 'Distributed/Standalone tarining' on accelerated neural network hardware -GPU/TPU/CPU- with support for real time Training Visualization - TensorBoard/VisualDL)
+     -->  'Build/Prepare' - A Notebook/ Visual AI Studio with dockerized support for underlying
+     		- AI/ML Libraries-TF/PyTorch/SparkML/XGboost/,
+		- EDA libraries, 
+		- Pre-processing libraries, such as 
+			- Data Augmentation Libraries, 
+			- Adversarial Robustness Libraries,
+			- Translational/Angular variance et al.  
+     --> 'Train' - Computation load distribution frameworks for '
+     		- Distributed Training (using Horovod or custom template)
+		- Standalone tarining
+		- with support for real time Training Visualization(TensorBoard/VisualDL)
+		- on accelerated neural network hardware NVIDIA GPU/Google TPU/CPU with the leverage of NVIDIA GPU-accelerated libraries (CUDA, CuDNN) 
      --> 'Evaluate'
      --> 'Model Serialization & Quantization' (Using TF-Serving, ONNX Runtime, Seldon Core et al)
-     --> 'Deploy' (AI-as-a-Service -RESTful/gRPC API, or, Binary Servables, or, Edge/Mobile deployment)
+     --> 'Deploy' 
+                - AI-as-a-Service -RESTful/gRPC API, or, 
+		- Binary Servables, or, 
+		- Edge deployment,
+		- Mobile deployment
      --> 'AI Inference Service Routing' ('Service Mesh' like Istio)
      --> 'Monitor' (Data drift & Concept drift with Alert) 
      --> 'Automated Re-training pathway' (Airflow)
