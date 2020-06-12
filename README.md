@@ -47,12 +47,13 @@ But, before we resort to a deep dive into these aforementioned 3 PRONGED answers
 - The Story of Enterprise Machine Learning: "It took me 3 weeks to develop the model. It has been > 11 months, and it's still not deployed."
     _ [Ref Source: The Linux foundation CD.FONDATION](https://cd.foundation/blog/2020/02/11/announcing-the-cd-foundation-mlops-sig/)
    
-
+- [The State of Affairs in MACHINE LEARNING OPERATIONS- Y'2019 Survey](#STATE-OF-MACHINE-LEARNING-OPERATIONS-IN-Y2019)
 
 
 
 ***
- 
+
+***
 ### JOURNEY IN AI MATURITY
 
 - ***AS the Organizations advance in their AI Maturity journey, complexities start growing expoenentially.***
@@ -67,7 +68,7 @@ Let us have a sneak peek into the Journey of any Org through various stages of A
 	 
                    --> "THE PROLIFERATION" (Stage 3)
 ```
-**[STAGE 1.] THE BEGINERS LUCK** 
+ -- *[STAGE 1.]*  **'THE BEGINERS LUCK' STAGE** 
 
 A *Simple ML workflow* does relatively very well with *SMALL DATA SCIENCE PROJECTS/POC/MVP*
 ``` 'Build/Prepare' --> 'Train' --> 'Evaluate'--> 'Deploy' --> 'UI' (a simple WebApp) ```
@@ -81,7 +82,7 @@ THEREFORE, the SIMPLE WORKFLOW which worked pretty well for 'SMALL DATA SCIENCE 
 
 
 
-**[STAGE 2.] WHEN THE RUBBER HITS THE ROAD**
+-- *[STAGE 2.]* **'WHEN THE RUBBER HITS THE ROAD' SATGE**
 
 As and when, the SMALL DATA SCIENCE PROJECTS/POC/MVPPOC/MVP hits the REAL WORLD SYSTEM, it starts facing new set of Challenges, and focus shifts to following
 
@@ -104,7 +105,7 @@ A *Slightly Matured Workflow* does the work -
 |<img src="images/Small_DataScience_Project.JPG" width="500" height="200" border="10">|<img src="images/mlops1.png" width="500" height="200" border="10">|
 | Workflow Job well done | Still lot missing in the Workflow :smiley:| 
 
-**[STAGE 3.] THE PROLIFERATION**
+ -- *[STAGE 3.]* **'THE PROLIFERATION' STAGE**
 
 But, as the Data Science (DS) requirements, demand for DS productionization, multiple DS Teams grows, whole lot of new issues starts popping up in explonential manner for large **ENTERPRISE DATA SCIENCE SYSTEM**. Such as,
 
@@ -140,7 +141,9 @@ But, as the Data Science (DS) requirements, demand for DS productionization, mul
 A Fully Matured Custom MLOPS workflow is required to handle challenges of large *ENTERPRISE DATA SCIENCE SYSTEM*.
 
 **MLOPS IS THE SILVER BULLET!**
-    
+***
+
+***
 ### HIDDEN TECH DEBT IN REAL WORLD ML SYSTEM
 
 <p align="center"> # HIDDEN TECH DEBT IN ML SYSTEM- NIPS/GOOGLE 2015</p> 
@@ -161,15 +164,16 @@ _Courtsey Google NIPS 2015
 <p align="center"> # Productionization/Industralization Machine Learning Systems</p> 
     
 **MLOPS IS THE SILVER BULLET!**
+***
 
-
+***
 ### STATE OF MACHINE LEARNING OPERATIONS IN Y2019
 
 Survey conducted by PipelineAI in July 2019: State of Machine learning Operations -
 <img src="images/Recent_Poll_PipelineAI_July2019_1.JPG" width="900" height="400" border="10"> 
 
 **Custom MLOPS IS THE SILVER BULLET!**
-
+***
 
 ## High level constructs of Real World MLOPS
 
