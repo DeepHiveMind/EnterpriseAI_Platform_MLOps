@@ -174,7 +174,8 @@ Survey conducted by PipelineAI in July 2019: State of Machine learning Operation
 **Custom MLOPS IS THE SILVER BULLET!**
 ***
 
-## High level constructs of Real World MLOPS
+
+# High level constructs of Real World MLOPS
 
 Any **"Enterprise Data Science System" / "Enterprise AI Platform"** must intend to stich/chain together at least the essential & high level constructs of MLOPS under its hood. Genrally "Enterprise AI Platform", such as H20.ai/Alteryx/HopsML/PipelineAI etc are powered by **Custom MLOPS** with the objective to *attempt to offer* following key high level AI/ML constructs:
    
