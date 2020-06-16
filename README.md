@@ -392,3 +392,8 @@ DataOps is a collaborative data management practice focused on improving the com
   </tr>
 </table>
 
+
+||
+|:--:|
+|Refer to my another Repo for [DevOps Operations for ML Deep Reinforecment Learning](https://github.com/DeepHiveMind/gateway_to_DeepReinforcementLearning_DeepNN)|
+|Refer to my another Repo for [DevOps Operations for Blcokchain Hyperledger Fabric](https://github.com/DeepHiveMind/gateway_to_DeepReinforcementLearning_DeepNN)|
