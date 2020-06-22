@@ -22,6 +22,7 @@ This repository intends to offers
 - [INSPIRATION for MLOPS](#INSPIRATION_for_MLOPS)
      - [WHY DO WE NEED MLOPS?](#WHY-DO-WE-NEED-MLOPS)
 	- [EVOLUTION JOURNEY IN AI MATURITY CURVE](#EVOLUTION-IN-AI-MATURITY-JOURNEY)
+	- [INDUSTRY SURVEY](#INDUSTRY-SURVEY)
 	- [HIDDEN TECH DEBT IN REAL WORLD ML SYSTEM](#HIDDEN-TECH-DEBT-IN-REAL-WORLD-ML-SYSTEM)
 - [MLOPS VS DATAOPS VS AIOPS VS PLATFORMOPS](#MLOPS-VS-DATAOPS-VS-AIOPS-VS-PLATFORMOPS)
 - [STATE OF MACHINE LEARNING OPERATIONS IN Y2019](#STATE-OF-MACHINE-LEARNING-OPERATIONS-IN-Y2019)
@@ -36,9 +37,11 @@ This repository intends to offers
 
 ## WHY DO WE NEED MLOPS**
 
-A. Three Pronged Answer 
-
-	- JOURNEY IN AI MATURITY 
+Three Pronged Answer 
+***
+```
+	
+	- EVOLUTION JOURNEY IN AI MATURITY CURVE
 	         {AS the Organizations advance in their AI Maturity journey, complexities start growing expoenentially}
 	
 	- HIDDEN TECH DEBT IN REAL WORLD ML SYSTEM 
@@ -46,18 +49,21 @@ A. Three Pronged Answer
 		 
 	- STATE OF MACHINE LEANRNING OPERATIONS IN Y2019 
 	         {Survey conducted by PipelineAI in July 2019 on State of Machine learning Operations}
-***
+	
+	The aforementioned pointers are explained in below segments.
+```
+### INDUSTRY SURVEY
+
 But, before we resort to a deep dive into these aforementioned 3 PRONGED answers, Let us have a sneak peek into couple of the *interesting suerveys* conducted - 
 
-- "Only 20% of ML Models in the enterprise making into the production environments"
+A. "Only 20% of ML Models in the enterprise making into the production environments"
     _ [from 3073 AI Aware CXO-level executive surveyed](https://www.activestate.com/wp-content/uploads/2018/10/webinar-slides-mlops.pdf) 
     
-- The Story of Enterprise Machine Learning: "It took me 3 weeks to develop the model. It has been > 11 months, and it's still not deployed."
+B. The Story of Enterprise Machine Learning: "It took me 3 weeks to develop the model. It has been > 11 months, and it's still not deployed."
     _ [Ref Source: The Linux foundation CD.FONDATION](https://cd.foundation/blog/2020/02/11/announcing-the-cd-foundation-mlops-sig/)
    
-- [The State of Affairs in MACHINE LEARNING OPERATIONS- Y'2019 Survey](#STATE-OF-MACHINE-LEARNING-OPERATIONS-IN-Y2019)
+C. [The State of Affairs in MACHINE LEARNING OPERATIONS- Y'2019 Survey](#STATE-OF-MACHINE-LEARNING-OPERATIONS-IN-Y2019)
 
-***
 
 ***
 ### EVOLUTION IN AI MATURITY JOURNEY
@@ -74,7 +80,7 @@ Let us have a sneak peek into the Journey of any Org through various stages of A
 	 
                    --> "THE PROLIFERATION" (Stage 3)
 ```
- -- *[STAGE 1.]*  **'THE BEGINERS LUCK' STAGE** 
+ -- *[STAGE 1.]*  **'THE BEGINERS LUCK STAGE** 
 
 A *Simple ML workflow* does relatively very well with *SMALL DATA SCIENCE PROJECTS/POC/MVP*
 ``` 'Build/Prepare' --> 'Train' --> 'Evaluate'--> 'Deploy' --> 'UI' (a simple WebApp) ```
