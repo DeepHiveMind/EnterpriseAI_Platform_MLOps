@@ -273,18 +273,22 @@ Any **"Enterprise Data Science System" / "Enterprise AI Platform"** must intend 
      --> 'Evaluate'
      
      --> 'Model Serialization & Quantization' (e.g.,Using TF-Serving, ONNX Runtime, Seldon Core et al)
+     		- Serializaion support for Protobuff, hdf5, pickle et al
+		- Serialization interoperability
+		- Model binary/servable quantization & Pruning
      
      --> 'Deploy' 
                 - AI-as-a-Service -RESTful/gRPC API, or, 
 		- Binary Servables, or, 
 		- Edge deployment,
 		- Mobile deployment
+		- model versioning for model updates (with "Rollback option" to previous version)
 		
      --> 'AI Inference Service Routing' (e.g.,'Service Mesh' like Istio)
      
      --> 'Monitor' (Data drift & Concept drift with Alert) 
      
-     --> 'Automated Re-training pathway' (e.g., Airflow, MLFlow)
+     --> 'Automated Re-training pathway' (e.g., ORACHESTRATOR - Airflow, MLFlow, Kubeflow-pipeline)
      
      --> 'User Interface' (PWA/ MobileApp / Web App)
     ```
