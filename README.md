@@ -102,6 +102,9 @@ As and when, the SMALL DATA SCIENCE PROJECTS/POC/MVPPOC/MVP hits the REAL WORLD 
 
 - **Security Vulnerability (If Hacked)**: Need to Train With Data Privacy (All your Data & other security is for a toss now as the Makert exposed AI Model has the essence of the underlying data.
 
+- **Monitoring performance of the model** due to Data drift & concept drift
+
+
 A *Slightly Matured Workflow* does the work - 
  ```'Build/Prepare' --> 'Train' --> 'Evaluate'--> 'Deploy' --> 'UI' (a PWA WebApp)** --> 'Monitor' --> Retraining pathway ```
 
@@ -125,8 +128,12 @@ But, as the Data Science (DS) requirements, demand for DS productionization, mul
      - Each engine presents its own scale opportunities/issues
   
 - Increased complexities in flow of Data (One Centralized DataLake team, and multiple DS Team clamouring) 
+	- ML Team heavy dependence on data team for multiple data dimensions @variety, @Veracity, @Volume and @variability 
   
-- Serving Models become increasingly harder (multiple DS Team, multiple DS Tools, multiple Serving requirements @)
+- Serving Models become increasingly harder 
+	- multiple DS Team, 
+	- multiple DS Tools, 
+	- multiple Serving requirements
  
 - Infrastructure needs, its governance complexities starts growing rapidly 
  	- Mutiple SERVING requirements, 
@@ -213,7 +220,7 @@ Any **"Enterprise Data Science System" / "Enterprise AI Platform"** must intend 
 			
      --> 'Train' - Computation load distribution frameworks for '
      		
-		- Distributed Training (e.g., using Horovod or custom template)
+		- Distributed Training (e.g., using Horovod or Sonner or custom template)
 		- Standalone tarining
 		- with support for real time Training Visualization(e.g., TensorBoard/VisualDL)
 		- on accelerated neural network hardware NVIDIA GPU/Google TPU/CPU with the leverage of NVIDIA GPU-accelerated libraries (CUDA, CuDNN) 
@@ -372,16 +379,35 @@ Reference: [Neuomation AI Platform](https://neu.ro/) | Neuromation has a special
 
 # MLOPS VS DATAOPS VS AIOPS VS PLATFORMOPS
 
-DevOps fits everywhere. Infact, DevOps dons multiple avataar in the broader perspective of Enterprise AI & Data landscape:  
+DevOps fits everywhere. Infact, DevOps dons multiple avataar in the broader perspective of Enterprise AI & Data  Platform landscape -  
 
 - **MLOps** is the application DevOps for AI, ML & Analytics foundation for to help Data Scientists in managing ML Lifecycle (building-training-deployment-monitroing-Trust lifecycle).
 “MLOps (a compound of “machine learning” and “operations”) is a practice for collaboration and communication between data scientists and operations professionals to help manage production ML (or deep learning) lifecycle. – Wiki
-
+```	
+	- MLOps = f(CI, CD, CT, uS) in AI/ML field
+		- CI == Continuous Integration of entire solution blocks in E2E ML Lifecycle
+		- CD == Consistent deployment of entire solution blocks in E2E ML Lifecycle
+		- CT == Continuous retraining pathway for entire solution blocks in E2E ML Lifecycle
+		- uS == Microservice governance of entire solution blocks in E2E ML Lifecycle
+```
 - **DataOps** is the application DevOps for data foundation for to help Data Engineers in managing Data Lifecycle. 
 DataOps is a collaborative data management practice focused on improving the communication, integration and automation of data flows between data managers and data consumers across an organization. -Gartner
+```
+	- DataOps = f(CI, CD, CO, uS) in Data Engineering field
+		- CI == Continuous Integration of entire solution blocks in Data Engineering Lifecycle
+		- CD == Consistent deployment of entire solution blocks in Data Engineering Lifecycle
+		- CO == Continuous Orachsetration pathway for entire solution blocks in Data Engineering Lifecycle
+		- uS == Microservice governance of entire solution blocks in Data Engineering Lifecycle
 
-- The term **AIOps** stands for “artificial intelligence for IT operations” Originally coined by Gartner in 2017, the term refers to the way data and information from an IT environment are managed by an IT team–in this case, using AI. It's the application DevOps for for IT operations assited by AI.
-
+```
+- The term **AIOps** stands for “artificial intelligence for IT operations” Originally coined by Gartner in 2017, the term refers to the way data and information from an IT environment are managed by an IT team–in this case, using AI. It's the application DevOps for for IT operations assited by AI. I.e., ***AIOps == AI powered ITOps***
+```
+	- AIOps = f(CI, CD, SIEM, uS) in Infrastructure Monitoring & Management field
+		- CI == Continuous Integration of entire solution blocks in IT operations Lifecycle
+		- CD == Consistent deployment of entire solution blocks in IT operations Lifecycle
+		- SIEM == SIEM pathway
+		- uS == Microservice governance of entire solution blocks in IT operations Lifecycle
+```
 - **PlatformOps** - Any Enterprise Platform is driven by PlatformOps for Building-Rolling_upgrade-Deployment of Platform in customer’s preferred choice of Infrastructure in accelerated fashion with ‘consistent deployment’ theme. 
 
 
