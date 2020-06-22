@@ -21,14 +21,14 @@ This repository intends to offers
 
 - [INSPIRATION for MLOPS](#INSPIRATION_for_MLOPS)
      - [WHY DO WE NEED MLOPS?](#WHY-DO-WE-NEED-MLOPS)
-	- [JOURNEY IN AI MATURITY](#JOURNEY-IN-AI-MATURITY)
+	- [EVOLUTION JOURNEY IN AI MATURITY CURVE](#EVOLUTION-IN-AI-MATURITY-JOURNEY)
 	- [HIDDEN TECH DEBT IN REAL WORLD ML SYSTEM](#HIDDEN-TECH-DEBT-IN-REAL-WORLD-ML-SYSTEM)
-	- [STATE OF MACHINE LEARNING OPERATIONS IN Y2019](#STATE-OF-MACHINE-LEARNING-OPERATIONS-IN-Y2019)
+- [MLOPS VS DATAOPS VS AIOPS VS PLATFORMOPS](#MLOPS-VS-DATAOPS-VS-AIOPS-VS-PLATFORMOPS)
+- [STATE OF MACHINE LEARNING OPERATIONS IN Y2019](#STATE-OF-MACHINE-LEARNING-OPERATIONS-IN-Y2019)
 - [MLOPS Reference Architecture](#MLOPS-Reference-Architecture)
 - [High level constructs of MLOPS](#High-level-constructs-of-Real-World-MLOPS)
 - [Detail References to the Constructs and Tools of MLOPS](#Detail-References-to-the-Constructs-and-Tools-of-MLOPS)
 - [MLOPS Architecture based on KUBEFLOW](#MLOPS-Architecture-based-on-KUBEFLOW)
-- [MLOPS VS DATAOPS VS AIOPS VS PLATFORMOPS](#MLOPS-VS-DATAOPS-VS-AIOPS-VS-PLATFORMOPS)
 - [Product Machine Learning System Y2019 A Video](#Product-Machine-Learning-System-Y2019-A-Video)
 ***
 
@@ -60,7 +60,7 @@ But, before we resort to a deep dive into these aforementioned 3 PRONGED answers
 ***
 
 ***
-### JOURNEY IN AI MATURITY
+### EVOLUTION IN AI MATURITY JOURNEY
 
 - ***AS the Organizations advance in their AI Maturity journey, complexities start growing expoenentially.***
 - ***SMALL DATA SCIENCE PROJECTS/DataScience POC/MVP* has lesser complexities, than the *ENTERPRISE DATA SCIENCE SYSTEM***.
@@ -180,7 +180,46 @@ _Courtsey Google NIPS 2015
 ***
 
 ***
-### STATE OF MACHINE LEARNING OPERATIONS IN Y2019
+
+# MLOPS VS DATAOPS VS AIOPS VS PLATFORMOPS
+
+DevOps fits everywhere in IT landscape  as like salt. Infact, DevOps dons multiple avataar in the broader perspective of Enterprise AI & Data  Platform landscape -  
+
+- **MLOps** is the application DevOps for AI, ML & Analytics foundation for to help Data Scientists in managing ML Lifecycle (building-training-deployment-Inferenece-monitroing-Trust lifecycle). I.e., MLOps is the practice of applying DevOps to help automate, manage, and audit machine learning (ML) workflows.
+“MLOps (a compound of “machine learning” and “operations”) is a practice for collaboration and communication between data scientists and operations professionals to help manage production ML (or deep learning) lifecycle". – Wiki
+```	
+	- MLOps = f(CI, CD, CT, CS, uS) in AI/ML field
+		- CI == Continuous Integration of entire solution blocks in E2E ML Lifecycle
+		- CD == Consistent deployment of entire solution blocks in E2E ML Lifecycle
+		- CT == Continuous retraining & serving (deployment as AIaaS, binary, pruned end point) pathway for entire solution blocks in E2E ML Lifecycle
+		- CS == Continuous Data pipeline for Real-time/Batch/Microbatch for Inference/Scoring of the model in production
+		- uS == Microservice governance of entire solution blocks in E2E ML Lifecycle
+		
+		New generation MLOPS is composed of DataOps as well. :)
+```
+- **DataOps** is the application DevOps for data foundation for to help Data Engineers in managing Data Lifecycle. 
+DataOps is a collaborative data management practice focused on improving the communication, integration and automation of data flows between data managers and data consumers across an organization. -Gartner
+```
+	- DataOps = f(CI, CD, CO, uS) in Data Engineering field
+		- CI == Continuous Integration of entire solution blocks in Data Engineering Lifecycle
+		- CD == Consistent deployment of entire solution blocks in Data Engineering Lifecycle
+		- CO == Continuous Orachsetration pathway for entire solution blocks in Data Engineering Lifecycle
+		- uS == Microservice governance of entire solution blocks in Data Engineering Lifecycle
+
+```
+- The term **AIOps** stands for “artificial intelligence for IT operations” Originally coined by Gartner in 2017, the term refers to the way data and information from an IT environment are managed by an IT team–in this case, using AI. It's the application DevOps for for IT operations assited by AI. I.e., ***AIOps == AI powered ITOps***
+```
+	- AIOps = f(CI, CD, SIEM, uS) in Infrastructure Monitoring & Management field
+		- CI == Continuous Integration of entire solution blocks in IT operations Lifecycle
+		- CD == Consistent deployment of entire solution blocks in IT operations Lifecycle
+		- SIEM == SIEM (Security Information and Event Management) pathway
+		- uS == Microservice governance of entire solution blocks in IT operations Lifecycle
+```
+- **PlatformOps** - Any Enterprise Platform is driven by PlatformOps for Building-Rolling_upgrade-Deployment of Platform in customer’s preferred choice of Infrastructure in accelerated fashion with ‘consistent deployment’ theme. 
+
+
+
+# STATE OF MACHINE LEARNING OPERATIONS IN Y2019
 
 Survey conducted by PipelineAI in July 2019: State of Machine learning Operations -
 <img src="images/Recent_Poll_PipelineAI_July2019_1.JPG" width="900" height="400" border="10"> 
@@ -376,40 +415,6 @@ Reference: [Neuomation AI Platform](https://neu.ro/) | Neuromation has a special
 <img src="https://www.tensorflow.org/tensorboard/images/tensorboard.gif" width="900" height="500" border="10">
 
 
-
-# MLOPS VS DATAOPS VS AIOPS VS PLATFORMOPS
-
-DevOps fits everywhere. Infact, DevOps dons multiple avataar in the broader perspective of Enterprise AI & Data  Platform landscape -  
-
-- **MLOps** is the application DevOps for AI, ML & Analytics foundation for to help Data Scientists in managing ML Lifecycle (building-training-deployment-monitroing-Trust lifecycle).
-“MLOps (a compound of “machine learning” and “operations”) is a practice for collaboration and communication between data scientists and operations professionals to help manage production ML (or deep learning) lifecycle. – Wiki
-```	
-	- MLOps = f(CI, CD, CT, CS, uS) in AI/ML field
-		- CI == Continuous Integration of entire solution blocks in E2E ML Lifecycle
-		- CD == Consistent deployment of entire solution blocks in E2E ML Lifecycle
-		- CT == Continuous retraining & serving (deployment as AIaaS, binary, pruned end point) pathway for entire solution blocks in E2E ML Lifecycle
-		- CS == Continuous Data pipeline for Real-time/Batch/Microbatch for Inference/Scoring of the model in production
-		- uS == Microservice governance of entire solution blocks in E2E ML Lifecycle
-```
-- **DataOps** is the application DevOps for data foundation for to help Data Engineers in managing Data Lifecycle. 
-DataOps is a collaborative data management practice focused on improving the communication, integration and automation of data flows between data managers and data consumers across an organization. -Gartner
-```
-	- DataOps = f(CI, CD, CO, uS) in Data Engineering field
-		- CI == Continuous Integration of entire solution blocks in Data Engineering Lifecycle
-		- CD == Consistent deployment of entire solution blocks in Data Engineering Lifecycle
-		- CO == Continuous Orachsetration pathway for entire solution blocks in Data Engineering Lifecycle
-		- uS == Microservice governance of entire solution blocks in Data Engineering Lifecycle
-
-```
-- The term **AIOps** stands for “artificial intelligence for IT operations” Originally coined by Gartner in 2017, the term refers to the way data and information from an IT environment are managed by an IT team–in this case, using AI. It's the application DevOps for for IT operations assited by AI. I.e., ***AIOps == AI powered ITOps***
-```
-	- AIOps = f(CI, CD, SIEM, uS) in Infrastructure Monitoring & Management field
-		- CI == Continuous Integration of entire solution blocks in IT operations Lifecycle
-		- CD == Consistent deployment of entire solution blocks in IT operations Lifecycle
-		- SIEM == SIEM (Security Information and Event Management) pathway
-		- uS == Microservice governance of entire solution blocks in IT operations Lifecycle
-```
-- **PlatformOps** - Any Enterprise Platform is driven by PlatformOps for Building-Rolling_upgrade-Deployment of Platform in customer’s preferred choice of Infrastructure in accelerated fashion with ‘consistent deployment’ theme. 
 
 
 
