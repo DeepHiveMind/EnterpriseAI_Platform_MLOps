@@ -288,7 +288,7 @@ Any **"Enterprise Data Science System" / "Enterprise AI Platform"** must intend 
      
      --> 'Monitor' (Data drift & Concept drift with Alert) 
      
-     --> 'Automated Re-training pathway' (e.g., ORACHESTRATOR - Airflow, MLFlow, Kubeflow-pipeline)
+     --> 'Automated Re-training pathway' (e.g., ORACHESTRATOR - Apache Airflow, Kubeflow-pipeline, Databricks MLFlow, Apache Beam)
      
      --> 'User Interface' (PWA/ MobileApp / Web App)
     ```
