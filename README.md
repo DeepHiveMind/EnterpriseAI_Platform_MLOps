@@ -8,6 +8,13 @@ This repository intends to offers
     - Production Machine Learning Orchestration
     - Explainablility of Black Box Models (a pillar of AI Trust)
     - **Ethical AI (a pillar of AI Trust)** with adequate deatiling around ```Ethical AI Frameworks, Codes of Ethics, Guidelines, Regulations``` et al. [Ethical AI](/README_Ethical_AI.md).
+- Target Audience:
+	- Entereprise Architects / AI ML Solution Architects
+	- AI Researcher 
+	- Data Scientists
+	- AI/ML Engineers
+	- AI Platform Engineers
+	- DevOps Engineers
 
 ***
 **A Quick Rundown:**
