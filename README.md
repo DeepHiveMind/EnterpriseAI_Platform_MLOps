@@ -384,10 +384,11 @@ DevOps fits everywhere. Infact, DevOps dons multiple avataar in the broader pers
 - **MLOps** is the application DevOps for AI, ML & Analytics foundation for to help Data Scientists in managing ML Lifecycle (building-training-deployment-monitroing-Trust lifecycle).
 “MLOps (a compound of “machine learning” and “operations”) is a practice for collaboration and communication between data scientists and operations professionals to help manage production ML (or deep learning) lifecycle. – Wiki
 ```	
-	- MLOps = f(CI, CD, CT, uS) in AI/ML field
+	- MLOps = f(CI, CD, CT, CS, uS) in AI/ML field
 		- CI == Continuous Integration of entire solution blocks in E2E ML Lifecycle
 		- CD == Consistent deployment of entire solution blocks in E2E ML Lifecycle
-		- CT == Continuous retraining pathway for entire solution blocks in E2E ML Lifecycle
+		- CT == Continuous retraining & serving (deployment as AIaaS, binary, pruned end point) pathway for entire solution blocks in E2E ML Lifecycle
+		- CS == Continuous Data pipeline for Real-time/Batch/Microbatch for Inference/Scoring of the model in production
 		- uS == Microservice governance of entire solution blocks in E2E ML Lifecycle
 ```
 - **DataOps** is the application DevOps for data foundation for to help Data Engineers in managing Data Lifecycle. 
@@ -405,7 +406,7 @@ DataOps is a collaborative data management practice focused on improving the com
 	- AIOps = f(CI, CD, SIEM, uS) in Infrastructure Monitoring & Management field
 		- CI == Continuous Integration of entire solution blocks in IT operations Lifecycle
 		- CD == Consistent deployment of entire solution blocks in IT operations Lifecycle
-		- SIEM == SIEM pathway
+		- SIEM == SIEM (Security Information and Event Management) pathway
 		- uS == Microservice governance of entire solution blocks in IT operations Lifecycle
 ```
 - **PlatformOps** - Any Enterprise Platform is driven by PlatformOps for Building-Rolling_upgrade-Deployment of Platform in customer’s preferred choice of Infrastructure in accelerated fashion with ‘consistent deployment’ theme. 
