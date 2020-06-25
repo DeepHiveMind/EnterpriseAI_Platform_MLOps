@@ -484,7 +484,6 @@ Real World AI/ML SOC Plane is a custom solution, and is composed of following so
   </tr>
 </table>
 
-
 ||
 |:--:|
 |Refer to my another Repo for [DevOps Operations for ML Deep Reinforecment Learning](https://github.com/DeepHiveMind/gateway_to_DeepReinforcementLearning_DeepNN)|
