@@ -30,6 +30,7 @@ This repository intends to offers
 - [High level constructs of MLOPS](#High-level-constructs-of-Real-World-MLOPS)
 - [Detail References to the Constructs and Tools of MLOPS](#Detail-References-to-the-Constructs-and-Tools-of-MLOPS)
 - [MLOPS Architecture based on KUBEFLOW](#MLOPS-Architecture-based-on-KUBEFLOW)
+- [Deep Dive into AI/ML SECURITY](#Deep-Dive-into-AI-SECURITY)
 - [Product Machine Learning System Y2019 A Video](#Product-Machine-Learning-System-Y2019-A-Video)
 ***
 
@@ -320,8 +321,14 @@ Any **"Enterprise Data Science System" / "Enterprise AI Platform"** must intend 
 		- Notebook /Model Code,
      
      --o 'AI Security' 
-     		- Privacy Preserving Machine Learning, 
-		- AI/ML API Security (Authentican & Authorization)
+     		- Privacy Preserving Machine Learning
+			- Differntial Privacy (offered by libraries such as Tensorflow Privacy)
+			- ε-differentially private algorithms (Google's Differential Privacy)
+			- Homomorphic Encryption / Data privacy in Real World AI/ML system (Intel n-Graph with Tensorflow, or, Microsoft SEAL)
+		- AI/ML API Security 
+			- AI/ML RESTful or gRPC end point Authentication & Authorization
+			- AI/ML Federated User Pool & Identity Pool management (FIdM/ FIM)
+			- DevSecOps (Security as Code) for AI/ML Application devleopment, deployment, monitoring, 
      
      --o 'AI Scalability' 
       		- Autoamted Load Balancing, 
@@ -425,7 +432,43 @@ Reference: [Neuomation AI Platform](https://neu.ro/) | Neuromation has a special
 <img src="https://www.tensorflow.org/tensorboard/images/tensorboard.gif" width="900" height="500" border="10">
 
 
+# Deep Dive into AI SECURITY
+'AI Security' is now often being discussed a lot, and is increasingly becoming a point of concern as 
 
+#### Why AI SECURITY is important
+- AI/ML Models are getting deployed on edge devices / edge gateways / Fog devices / Mobiles for offline predictions (owing to rapid proliferation of IIoT/ CIoT) 
+	- Agile, Dynamic Security Perimeter of AI/ML Serving end points
+- AI/ML Models gets exposed to real data, and inferencing of models can expose sensitive information
+- AI/ML Models generally are not trained on Masked data
+- AI/ML Model endpoint security (owing to uS Microservice style of AI/ML serving, AI-as-a-Service)
+	- AI/ML RESTful or gRPC end point Authentication & Authorization
+	- AI/ML Federated User Pool & Identity Pool management (FIdM/ FIM)
+- Absence of DevSecOps *(Security-as-a-Code)* implementation pipeline in AI/ML Application productionization- i.e., lack of awareness for 
+	- Vulnerability Scanning while Application development, such as *SAST Vulnerability Scanning*
+	- Vulnerability Scanning while Application deployment, such as *DAST Vulnerability Scanning*
+	- SIEM in production (Continuous Monitoring, Threat detection and alerting, Threat remediation)
+	
+
+In a technical parlance, AI/ML model endpoints are increasinly been exploited as attack-vector / vulnerability vector. **AI/ML Model endpoint Privacy** is becoming a concern.
+
+#### Real World AI SOC Custom Solution
+There is comprehensive SOC solution (SOC- Security Operation Control - Plane) for *real world AI/ML*.
+
+Real World AI/ML SOC Plane is a custom solution, and is composed of following solution components primarily:
+
+- Privacy Preserving Machine Learning
+	- Differntial Privacy (offered by libraries such as Tensorflow Privacy)
+	- ε-differentially private algorithms (Google's Differential Privacy)
+	- Homomorphic Encryption (Intel n-Graph with Tensorflow, or, Microsoft SEAL)
+{P.S.: Homomorphic encryption is a form of encryption that allows computation on encrypted data, and is an attractive remedy to increasing concerns about ***data privacy in the field of machine learning**.}	
+	
+- AI/ML API/Endpoint Security 
+	- AI/ML RESTful or gRPC end point Authentication & Authorization
+	- AI/ML Federated User Pool & Identity Pool management (FIdM/ FIM)
+
+- Implementation DevSecOps (Security-as-Code) pipeline for AI/ML Application development, deployment, monitoring, Threat detection and alerting, Threat remediation
+	- Please refer to my another repo [DevSecOps Sec-as-a-Code]() for delving deeper into the awesome world of DevSecOps.
+     
 
 
 # Product Machine Learning System Y2019 A Video
