@@ -31,7 +31,19 @@ This repository intends to offers
 - [Detail References to the Constructs and Tools of MLOPS](#Detail-References-to-the-Constructs-and-Tools-of-MLOPS)
 - [MLOPS Architecture based on KUBEFLOW](#MLOPS-Architecture-based-on-KUBEFLOW)
 	- [Train and Serve TensorFlow Models at Scale with KUBERNETES and KUBEFLOW](#Train-and-Serve-TensorFlow-Models-at-Scale-with-Kubernetes-and-Kubeflow)
+		-[Docker & Containerizatioin of AI Modules](https://github.com/DeepHiveMind/Kubeflow-AI-Labs/tree/master/1-docker)
+		-[Kubernetes K8S for AI](https://github.com/DeepHiveMind/Kubeflow-AI-Labs/tree/master/2-kubernetes)
+		-[Helm Charts on K8S for AI complex deployment](https://github.com/DeepHiveMind/Kubeflow-AI-Labs/tree/master/3-helm)
+		-[Kubeflow for AI MLOPS](https://github.com/DeepHiveMind/Kubeflow-AI-Labs/tree/master/4-kubeflow)
+		-[JupyterHub on K8S- AI Build Notebook](https://github.com/DeepHiveMind/Kubeflow-AI-Labs/tree/master/5-jupyterhub)
+		-[TFJob- K8S custom kind for AI Training on GPU/CPU/TPU](https://github.com/DeepHiveMind/Kubeflow-AI-Labs/tree/master/6-tfjob) 
+		-[Distributed Tensorflow](https://github.com/DeepHiveMind/Kubeflow-AI-Labs/tree/master/7-distributed-tensorflow)
+		-[Hyperparameters Sweep with Helm](https://github.com/DeepHiveMind/Kubeflow-AI-Labs/tree/master/8-hyperparam-sweep)
+		-[AI Model Serving for prediction/scoring](https://github.com/DeepHiveMind/Kubeflow-AI-Labs/tree/master/9-serving)
+
+
 - [Deep Dive into AI/ML SECURITY](#Deep-Dive-into-AI-SECURITY)
+
 - [Product Machine Learning System Y2019 A Video](#Product-Machine-Learning-System-Y2019-A-Video)
 ***
 
@@ -436,17 +448,17 @@ Reference: [Neuomation AI Platform](https://neu.ro/) | Neuromation has a special
 
 | | Module | Description |
 | --- | --- | --- |
-|0| **[Introduction](0-intro)** | Introduction to this workshop. Motivations and goals.|
-|1| **[Docker](1-docker)** | Docker and containers 101.|
-|2| **[Kubernetes](2-kubernetes)** | Kubernetes important concepts overview.|
-|3| **[Helm](3-helm)** | Introduction to Helm |
-|4| **[Kubeflow](4-kubeflow)** | Introduction to Kubeflow and how to deploy it in your cluster.|
-|5| **[JupyterHub](5-jupyterhub)** | Learn how to run JupyterHub to create and manage Jupyter notebooks using Kubeflow |
-|6| **[TFJob](6-tfjob)** | Introduction to `TFJob` and how to use it to deploy a simple TensorFlow training.|
-|7| **[Distributed Tensorflow](7-distributed-tensorflow)** | Learn how to deploy and monitor distributed TensorFlow trainings with `TFJob`|
-|8| **[Hyperparameters Sweep with Helm](8-hyperparam-sweep)** | Using Helm to deploy a large number of trainings testing different hypothesis, and TensorBoard to monitor and compare the results |
-|9| **[Serving](9-serving)** | Using TensorFlow Serving to serve predictions |
-|10| **[Going Further](10-going-further)** | Links and resources to go further: Autoscaling, Distributed Storage etc. |
+|0| **[Introduction](https://github.com/DeepHiveMind/Kubeflow-AI-Labs/tree/master/0-intro)** | Introduction to this workshop. Motivations and goals.|
+|1| **[Docker](https://github.com/DeepHiveMind/Kubeflow-AI-Labs/tree/master/1-docker)** | Docker and containers 101.|
+|2| **[Kubernetes](https://github.com/DeepHiveMind/Kubeflow-AI-Labs/tree/master/2-kubernetes)** | Kubernetes important concepts overview.|
+|3| **[Helm](https://github.com/DeepHiveMind/Kubeflow-AI-Labs/tree/master/3-helm)** | Introduction to Helm |
+|4| **[Kubeflow](https://github.com/DeepHiveMind/Kubeflow-AI-Labs/tree/master/4-kubeflow)** | Introduction to Kubeflow and how to deploy it in your cluster.|
+|5| **[JupyterHub](https://github.com/DeepHiveMind/Kubeflow-AI-Labs/tree/master/5-jupyterhub)** | Learn how to run JupyterHub to create and manage Jupyter notebooks using Kubeflow |
+|6| **[TFJob](https://github.com/DeepHiveMind/Kubeflow-AI-Labs/tree/master/6-tfjob)** | Introduction to `TFJob` and how to use it to deploy a simple TensorFlow training.|
+|7| **[Distributed Tensorflow](https://github.com/DeepHiveMind/Kubeflow-AI-Labs/tree/master/7-distributed-tensorflow)** | Learn how to deploy and monitor distributed TensorFlow trainings with `TFJob`|
+|8| **[Hyperparameters Sweep with Helm](https://github.com/DeepHiveMind/Kubeflow-AI-Labs/tree/master/8-hyperparam-sweep)** | Using Helm to deploy a large number of trainings testing different hypothesis, and TensorBoard to monitor and compare the results |
+|9| **[Serving](https://github.com/DeepHiveMind/Kubeflow-AI-Labs/tree/master/9-serving)** | Using TensorFlow Serving to serve predictions |
+|10| **[Going Further](https://github.com/DeepHiveMind/Kubeflow-AI-Labs/tree/master/10-going-further)** | Links and resources to go further: Autoscaling, Distributed Storage etc. |
 
 
 # Deep Dive into AI SECURITY
