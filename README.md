@@ -30,6 +30,7 @@ This repository intends to offers
 - [High level constructs of MLOPS](#High-level-constructs-of-Real-World-MLOPS)
 - [Detail References to the Constructs and Tools of MLOPS](#Detail-References-to-the-Constructs-and-Tools-of-MLOPS)
 - [MLOPS Architecture based on KUBEFLOW](#MLOPS-Architecture-based-on-KUBEFLOW)
+	- [Train and Serve TensorFlow Models at Scale with KUBERNETES and KUBEFLOW](#Train-and-Serve-TensorFlow-Models-at-Scale-with-Kubernetes-and-Kubeflow)
 - [Deep Dive into AI/ML SECURITY](#Deep-Dive-into-AI-SECURITY)
 - [Product Machine Learning System Y2019 A Video](#Product-Machine-Learning-System-Y2019-A-Video)
 ***
@@ -413,9 +414,7 @@ Reference: [Neuomation AI Platform](https://neu.ro/) | Neuromation has a special
 |[🤖 AutoML](/README_Neural%20Architecture%20Search.md)| [📡 Functions as a service](README_Function%20as%20a%20Service%20Frameworks.md) | [🔠 Industry-strength NLP](/README_Industrial%20Strength%20NLP.md) | [💰 Commercial Platforms](/README_Commercial%20Platforms.md) | 
 
 
-# MLOPS Architecture by FOSS
-
-### MLOPS Architecture based on KUBEFLOW
+# MLOPS Architecture based on KUBEFLOW
 
 - High level conceptual MLOPS solutions orchasterated by KUBEFLOW  (Muliple technology blocks for Enterprise level MLOPS):
 
@@ -430,6 +429,24 @@ Reference: [Neuomation AI Platform](https://neu.ro/) | Neuromation has a special
 - Runtime TRAINING Visulization of Deep NN Models supported by Kubeflow leveraging TensorBoard: A Visual of TensorBoard for TRAINING Visualization:
 
 <img src="https://www.tensorflow.org/tensorboard/images/tensorboard.gif" width="900" height="500" border="10">
+
+## Train and Serve TensorFlow Models at Scale with KUBERNETES and KUBEFLOW
+
+#### Hands On Content Summary
+
+| | Module | Description |
+| --- | --- | --- |
+|0| **[Introduction](0-intro)** | Introduction to this workshop. Motivations and goals.|
+|1| **[Docker](1-docker)** | Docker and containers 101.|
+|2| **[Kubernetes](2-kubernetes)** | Kubernetes important concepts overview.|
+|3| **[Helm](3-helm)** | Introduction to Helm |
+|4| **[Kubeflow](4-kubeflow)** | Introduction to Kubeflow and how to deploy it in your cluster.|
+|5| **[JupyterHub](5-jupyterhub)** | Learn how to run JupyterHub to create and manage Jupyter notebooks using Kubeflow |
+|6| **[TFJob](6-tfjob)** | Introduction to `TFJob` and how to use it to deploy a simple TensorFlow training.|
+|7| **[Distributed Tensorflow](7-distributed-tensorflow)** | Learn how to deploy and monitor distributed TensorFlow trainings with `TFJob`|
+|8| **[Hyperparameters Sweep with Helm](8-hyperparam-sweep)** | Using Helm to deploy a large number of trainings testing different hypothesis, and TensorBoard to monitor and compare the results |
+|9| **[Serving](9-serving)** | Using TensorFlow Serving to serve predictions |
+|10| **[Going Further](10-going-further)** | Links and resources to go further: Autoscaling, Distributed Storage etc. |
 
 
 # Deep Dive into AI SECURITY
