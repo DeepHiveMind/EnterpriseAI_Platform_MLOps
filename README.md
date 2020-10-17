@@ -517,3 +517,13 @@ Real World AI/ML SOC Plane is a custom solution, and is composed of following so
 |:--:|
 |Refer to my another Repo for [DevOps Operations for ML Deep Reinforecment Learning](https://github.com/DeepHiveMind/gateway_to_DeepReinforcementLearning_DeepNN)|
 |Refer to my another Repo for [DevOps Operations for Blcokchain Hyperledger Fabric](https://github.com/DeepHiveMind/gateway_to_DeepReinforcementLearning_DeepNN)|
+
+# Contact info
+
+Feel free to contact me to discuss any issues, questions, or comments.
+
+My contact info can be found on my [GitHub page](https://github.com/DeepHiveMind).
+
+# License
+
+I, *The DeepHiveMind*, am providing code and resources in this repository to you under custom Copyright & license (Copyright 2019 DeepHiveMind & Creative Commons Legal Code CC0 1.0 Universal). Please Refer to the **[Copyright 2019 DeepHiveMind License]** for further details as to this. Thanks!
