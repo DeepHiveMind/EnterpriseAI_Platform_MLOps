@@ -40,7 +40,7 @@ This repository intends to offers
 		- [Distributed Tensorflow](https://github.com/DeepHiveMind/Kubeflow-AI-Labs/tree/master/7-distributed-tensorflow)
 		- [Hyperparameters Sweep with Helm](https://github.com/DeepHiveMind/Kubeflow-AI-Labs/tree/master/8-hyperparam-sweep)
 		- [AI Model Serving for prediction/scoring](https://github.com/DeepHiveMind/Kubeflow-AI-Labs/tree/master/9-serving)
-
+		- [Integrating AzureML and AWS SageMaker with KubeFlow to create E2E MLOPS Pipeline](#Integrating-AzureML-and-AWS-SageMaker-with-KubeFlow-to-create-E2E-MLOPS-Pipeline)
 
 - [Deep Dive into AI/ML SECURITY](#Deep-Dive-into-AI-SECURITY)
 
@@ -460,6 +460,13 @@ Reference: [Neuomation AI Platform](https://neu.ro/) | Neuromation has a special
 |9| **[AI Model Serving for prediction/scoring](https://github.com/DeepHiveMind/Kubeflow-AI-Labs/tree/master/9-serving)** | Using TensorFlow Serving to serve predictions |
 |10| **[Going Further](https://github.com/DeepHiveMind/Kubeflow-AI-Labs/tree/master/10-going-further)** | Links and resources to go further: Autoscaling, Distributed Storage etc. |
 
+#### Integrating AzureML and AWS SageMaker with KubeFlow to create E2E MLOPS Pipeline 
+##### HYBRID MACHINE LEARNING WORKFLOW
+| | Module | Description |
+| --- | --- | --- |
+|0| **[Integrating AzureML with KubeFlow](https://www.kubeflow.org/docs/azure/azureendtoend/)** | Running AzureML on top of KubeFlow for E2E MLOPS|
+|0| **[Integrating AWS SageMaker with KubeFlow](https://aws.amazon.com/blogs/machine-learning/introducing-amazon-sagemaker-components-for-kubeflow-pipelines/)** | Running AWS SageMaker on top of KubeFlow for E2E MLOPS|
+|0| **[How CISCO uses AWS SageMaker and KubeFlow](https://aws.amazon.com/blogs/machine-learning/cisco-uses-amazon-sagemaker-and-kubeflow-to-create-a-hybrid-machine-learning-workflow/)** | How CISCO leverages AWS SageMaker and KubeFlow to drive Hybrid ML workflow for E2E MLOPS|
 
 # Deep Dive into AI SECURITY
 'AI Security' is now often being discussed a lot, and is increasingly becoming a point of concern as, in a technical parlance, AI/ML model endpoints are been exploited as attack-vector / vulnerability vector. *AI/ML Model endpoint Privacy*  | *Data Privacy in Real World AI/ML System* | *Lack of Comprehensive adoption of DevSecOps Pipeline in Real World AI/ML system* et al.
