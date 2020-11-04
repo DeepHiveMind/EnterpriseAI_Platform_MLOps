@@ -40,7 +40,7 @@ This repository intends to offers
 		- [Distributed Tensorflow](https://github.com/DeepHiveMind/Kubeflow-AI-Labs/tree/master/7-distributed-tensorflow)
 		- [Hyperparameters Sweep with Helm](https://github.com/DeepHiveMind/Kubeflow-AI-Labs/tree/master/8-hyperparam-sweep)
 		- [AI Model Serving for prediction/scoring](https://github.com/DeepHiveMind/Kubeflow-AI-Labs/tree/master/9-serving)
-		- [Integrating AzureML and AWS SageMaker with KubeFlow to create E2E MLOPS Pipeline](#Integrating-AzureML-and-AWS-SageMaker-with-KubeFlow-to-create-E2E-MLOPS-Pipeline)
+	- [Integrating AzureML and AWS SageMaker with KubeFlow to create E2E MLOPS Pipeline](#Integrating-AzureML-and-AWS-SageMaker-with-KubeFlow-to-create-E2E-MLOPS-Pipeline)
 
 - [Deep Dive into AI/ML SECURITY](#Deep-Dive-into-AI-SECURITY)
 
